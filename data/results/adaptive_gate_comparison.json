@@ -1,0 +1,196 @@
+{
+  "deepseek41flash": [
+    {
+      "method": "diagnose-first",
+      "n": 400,
+      "task_success": 0.775,
+      "per_state": {
+        "conflicting": 0.79,
+        "missing": 0.6,
+        "sufficient": 0.77,
+        "unanswerable": 0.94
+      },
+      "llm_calls": 18.42,
+      "gate_calls": 0.0,
+      "retrieve_first_rate": 0.0,
+      "vs_retrieve_first": [
+        -0.0525,
+        -0.0875,
+        -0.02
+      ]
+    },
+    {
+      "method": "retrieve-first",
+      "n": 400,
+      "task_success": 0.8275,
+      "per_state": {
+        "conflicting": 0.8,
+        "missing": 0.78,
+        "sufficient": 0.76,
+        "unanswerable": 0.97
+      },
+      "llm_calls": 14.4025,
+      "gate_calls": 0.0,
+      "retrieve_first_rate": 1.0,
+      "vs_retrieve_first": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "method": "gate-confidence",
+      "n": 400,
+      "task_success": 0.8075,
+      "per_state": {
+        "conflicting": 0.77,
+        "missing": 0.76,
+        "sufficient": 0.74,
+        "unanswerable": 0.96
+      },
+      "llm_calls": 15.835,
+      "gate_calls": 1.0,
+      "retrieve_first_rate": 0.6425,
+      "vs_retrieve_first": [
+        -0.02,
+        -0.0475,
+        0.005
+      ]
+    },
+    {
+      "method": "gate-complexity",
+      "n": 400,
+      "task_success": 0.7925,
+      "per_state": {
+        "conflicting": 0.76,
+        "missing": 0.71,
+        "sufficient": 0.74,
+        "unanswerable": 0.96
+      },
+      "llm_calls": 16.5325,
+      "gate_calls": 1.0,
+      "retrieve_first_rate": 0.57,
+      "vs_retrieve_first": [
+        -0.035,
+        -0.065,
+        -0.0075
+      ]
+    },
+    {
+      "method": "gate-oracle",
+      "n": 400,
+      "task_success": 0.82,
+      "per_state": {
+        "conflicting": 0.78,
+        "missing": 0.78,
+        "sufficient": 0.77,
+        "unanswerable": 0.95
+      },
+      "llm_calls": 16.4375,
+      "gate_calls": 0.0,
+      "retrieve_first_rate": 0.25,
+      "vs_retrieve_first": [
+        -0.0075,
+        -0.0325,
+        0.0175
+      ]
+    }
+  ],
+  "qwen38flash": [
+    {
+      "method": "diagnose-first",
+      "n": 400,
+      "task_success": 0.77,
+      "per_state": {
+        "conflicting": 0.75,
+        "missing": 0.59,
+        "sufficient": 0.78,
+        "unanswerable": 0.96
+      },
+      "llm_calls": 18.6075,
+      "gate_calls": 0.0,
+      "retrieve_first_rate": 0.0,
+      "vs_retrieve_first": [
+        -0.0425,
+        -0.0775,
+        -0.0075
+      ]
+    },
+    {
+      "method": "retrieve-first",
+      "n": 400,
+      "task_success": 0.8125,
+      "per_state": {
+        "conflicting": 0.77,
+        "missing": 0.79,
+        "sufficient": 0.75,
+        "unanswerable": 0.94
+      },
+      "llm_calls": 14.76,
+      "gate_calls": 0.0,
+      "retrieve_first_rate": 1.0,
+      "vs_retrieve_first": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "method": "gate-confidence",
+      "n": 400,
+      "task_success": 0.8,
+      "per_state": {
+        "conflicting": 0.73,
+        "missing": 0.74,
+        "sufficient": 0.8,
+        "unanswerable": 0.93
+      },
+      "llm_calls": 16.01,
+      "gate_calls": 1.0,
+      "retrieve_first_rate": 0.6875,
+      "vs_retrieve_first": [
+        -0.0125,
+        -0.04,
+        0.0125
+      ]
+    },
+    {
+      "method": "gate-complexity",
+      "n": 400,
+      "task_success": 0.79,
+      "per_state": {
+        "conflicting": 0.73,
+        "missing": 0.7,
+        "sufficient": 0.8,
+        "unanswerable": 0.93
+      },
+      "llm_calls": 16.205,
+      "gate_calls": 1.0,
+      "retrieve_first_rate": 0.69,
+      "vs_retrieve_first": [
+        -0.0225,
+        -0.05,
+        0.005
+      ]
+    },
+    {
+      "method": "gate-oracle",
+      "n": 400,
+      "task_success": 0.82,
+      "per_state": {
+        "conflicting": 0.74,
+        "missing": 0.77,
+        "sufficient": 0.81,
+        "unanswerable": 0.96
+      },
+      "llm_calls": 16.5725,
+      "gate_calls": 0.0,
+      "retrieve_first_rate": 0.25,
+      "vs_retrieve_first": [
+        0.0075,
+        -0.02,
+        0.035
+      ]
+    }
+  ]
+}

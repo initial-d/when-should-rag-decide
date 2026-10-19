@@ -1,0 +1,4395 @@
+{
+  "data/benchmark/samples_full.json": {
+    "n": 240,
+    "per_state": {
+      "conflicting": {
+        "n": 40,
+        "invalid": 8,
+        "answer_in_initial": 37,
+        "issues": {
+          "conflict_doc_lacks_alternative": 4,
+          "answer_not_checkable_by_string": 6,
+          "conflict_doc_also_states_gold": 3,
+          "conflict_gold_not_supported": 3
+        }
+      },
+      "missing": {
+        "n": 40,
+        "invalid": 26,
+        "answer_in_initial": 23,
+        "issues": {
+          "answer_not_checkable_by_string": 6,
+          "missing_answer_already_in_initial": 23,
+          "missing_answer_absent_from_pool": 3
+        }
+      },
+      "outdated": {
+        "n": 40,
+        "invalid": 4,
+        "answer_in_initial": 6,
+        "issues": {
+          "answer_not_checkable_by_string": 4
+        }
+      },
+      "sufficient": {
+        "n": 40,
+        "invalid": 4,
+        "answer_in_initial": 39,
+        "issues": {
+          "answer_not_checkable_by_string": 4,
+          "sufficient_answer_not_in_initial": 1
+        }
+      },
+      "unanswerable": {
+        "n": 40,
+        "invalid": 10,
+        "answer_in_initial": 6,
+        "issues": {
+          "unanswerable_answer_present_in_pool": 6,
+          "answer_not_checkable_by_string": 6
+        }
+      },
+      "underspecified": {
+        "n": 40,
+        "invalid": 4,
+        "answer_in_initial": 37,
+        "issues": {
+          "answer_not_checkable_by_string": 4
+        }
+      }
+    },
+    "rows": [
+      {
+        "id": "suff_0000",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0001",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0002",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0003",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0004",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0005",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "suff_0006",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0007",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0008",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0009",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0010",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "suff_0011",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0012",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0013",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0014",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0015",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0016",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0017",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "suff_0018",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0019",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0020",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0021",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0022",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0023",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0024",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0025",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0026",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0027",
+        "gold_state": "sufficient",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "sufficient_answer_not_in_initial"
+        ]
+      },
+      {
+        "id": "suff_0028",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0029",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0030",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0031",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0032",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0033",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0034",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0035",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0036",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0037",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0038",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "suff_0039",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "miss_0040",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0041",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0042",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0043",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0044",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0045",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0046",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0047",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0048",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0049",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0050",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0051",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0052",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0053",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0054",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0055",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0056",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "miss_0057",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0058",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0059",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0060",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0061",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0062",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0063",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0064",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0065",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "miss_0066",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0067",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "miss_0068",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0069",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0070",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0071",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0072",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0073",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0074",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0075",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "miss_0076",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0077",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0078",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "miss_0079",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "conf_0080",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0081",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0082",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0083",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_lacks_alternative"
+        ]
+      },
+      {
+        "id": "conf_0084",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0085",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "conf_0086",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0087",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0088",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "conf_0089",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0090",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0091",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0092",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0093",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0094",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0095",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0096",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "conf_0097",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0098",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0099",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0100",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0101",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0102",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0103",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "conf_0104",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0105",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0106",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0107",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0108",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0109",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "conf_0110",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0111",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0112",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0113",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0114",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0115",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "conf_0116",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0117",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "conf_0118",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "conf_0119",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unan_0120",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0121",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "unan_0122",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0123",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0124",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0125",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0126",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0127",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0128",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0129",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0130",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "unan_0131",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0132",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0133",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0134",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0135",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0136",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0137",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "unan_0138",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0139",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unan_0140",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0141",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0142",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unan_0143",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "unan_0144",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "unan_0145",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0146",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0147",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unan_0148",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0149",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0150",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0151",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0152",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0153",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0154",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0155",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0156",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unan_0157",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unan_0158",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "unan_0159",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "unde_0160",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0161",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0162",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0163",
+        "gold_state": "underspecified",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unde_0164",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0165",
+        "gold_state": "underspecified",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unde_0166",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0167",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0168",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0169",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0170",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0171",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0172",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0173",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0174",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0175",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0176",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0177",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0178",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0179",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0180",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0181",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0182",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0183",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0184",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0185",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0186",
+        "gold_state": "underspecified",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "unde_0187",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0188",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0189",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0190",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0191",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0192",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0193",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0194",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0195",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0196",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0197",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0198",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "unde_0199",
+        "gold_state": "underspecified",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "outd_0200",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "outd_0201",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0202",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0203",
+        "gold_state": "outdated",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "outd_0204",
+        "gold_state": "outdated",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "outd_0205",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "outd_0206",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0207",
+        "gold_state": "outdated",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "outd_0208",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0209",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0210",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0211",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0212",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0213",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0214",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0215",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0216",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0217",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0218",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0219",
+        "gold_state": "outdated",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "outd_0220",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0221",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0222",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0223",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0224",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0225",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0226",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0227",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0228",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0229",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0230",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0231",
+        "gold_state": "outdated",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "outd_0232",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0233",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0234",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0235",
+        "gold_state": "outdated",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "outd_0236",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0237",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "outd_0238",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "outd_0239",
+        "gold_state": "outdated",
+        "answer_in_initial": false,
+        "issues": []
+      }
+    ]
+  },
+  "data/benchmark/samples_e2e_extension.json": {
+    "n": 400,
+    "per_state": {
+      "conflicting": {
+        "n": 100,
+        "invalid": 27,
+        "answer_in_initial": 96,
+        "issues": {
+          "conflict_doc_also_states_gold": 20,
+          "answer_not_checkable_by_string": 11,
+          "conflict_doc_lacks_alternative": 6,
+          "conflict_gold_not_supported": 4
+        }
+      },
+      "missing": {
+        "n": 100,
+        "invalid": 73,
+        "answer_in_initial": 65,
+        "issues": {
+          "missing_answer_already_in_initial": 65,
+          "answer_not_checkable_by_string": 17,
+          "missing_answer_absent_from_pool": 4
+        }
+      },
+      "sufficient": {
+        "n": 100,
+        "invalid": 19,
+        "answer_in_initial": 95,
+        "issues": {
+          "answer_not_checkable_by_string": 19,
+          "sufficient_answer_not_in_initial": 5
+        }
+      },
+      "unanswerable": {
+        "n": 100,
+        "invalid": 21,
+        "answer_in_initial": 15,
+        "issues": {
+          "unanswerable_answer_present_in_pool": 15,
+          "answer_not_checkable_by_string": 10
+        }
+      }
+    },
+    "rows": [
+      {
+        "id": "ext_suff_0000",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0001",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0002",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0003",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0004",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0005",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0006",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0007",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0008",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0009",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0010",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0011",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0012",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0013",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0014",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0015",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0016",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0017",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0018",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0019",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0020",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0021",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0022",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0023",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0024",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0025",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0026",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0027",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0028",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0029",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0030",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0031",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0032",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0033",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0034",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0035",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0036",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0037",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0038",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0039",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0040",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0041",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0042",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0043",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0044",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0045",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0046",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0047",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0048",
+        "gold_state": "sufficient",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "sufficient_answer_not_in_initial"
+        ]
+      },
+      {
+        "id": "ext_suff_0049",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0050",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0051",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0052",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0053",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0054",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0055",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0056",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0057",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0058",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0059",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0060",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0061",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0062",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0063",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0064",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0065",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0066",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0067",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0068",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0069",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0070",
+        "gold_state": "sufficient",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "sufficient_answer_not_in_initial"
+        ]
+      },
+      {
+        "id": "ext_suff_0071",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0072",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0073",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0074",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0075",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0076",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0077",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0078",
+        "gold_state": "sufficient",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "sufficient_answer_not_in_initial"
+        ]
+      },
+      {
+        "id": "ext_suff_0079",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0080",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0081",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0082",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0083",
+        "gold_state": "sufficient",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "sufficient_answer_not_in_initial"
+        ]
+      },
+      {
+        "id": "ext_suff_0084",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0085",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0086",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0087",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0088",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0089",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0090",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0091",
+        "gold_state": "sufficient",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "sufficient_answer_not_in_initial"
+        ]
+      },
+      {
+        "id": "ext_suff_0092",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0093",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_suff_0094",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0095",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0096",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0097",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0098",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_suff_0099",
+        "gold_state": "sufficient",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_miss_0100",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0101",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0102",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0103",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0104",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0105",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0106",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0107",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0108",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0109",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0110",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0111",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0112",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0113",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "ext_miss_0114",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "ext_miss_0115",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0116",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0117",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_miss_0118",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0119",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0120",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_miss_0121",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0122",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0123",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0124",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0125",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0126",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0127",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0128",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0129",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0130",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0131",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0132",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0133",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0134",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0135",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0136",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0137",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0138",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0139",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0140",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0141",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0142",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0143",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_miss_0144",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0145",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0146",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0147",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0148",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "ext_miss_0149",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0150",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0151",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0152",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0153",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0154",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0155",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0156",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0157",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0158",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_absent_from_pool"
+        ]
+      },
+      {
+        "id": "ext_miss_0159",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0160",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0161",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0162",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0163",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0164",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0165",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0166",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0167",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0168",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0169",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0170",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0171",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0172",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0173",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0174",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0175",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0176",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0177",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0178",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0179",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0180",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0181",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0182",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0183",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0184",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0185",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0186",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0187",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_miss_0188",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0189",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0190",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0191",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0192",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0193",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0194",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0195",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0196",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0197",
+        "gold_state": "missing",
+        "answer_in_initial": true,
+        "issues": [
+          "missing_answer_already_in_initial"
+        ]
+      },
+      {
+        "id": "ext_miss_0198",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_miss_0199",
+        "gold_state": "missing",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0200",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0201",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_conf_0202",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0203",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0204",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0205",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0206",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0207",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0208",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0209",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0210",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0211",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0212",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0213",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0214",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0215",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0216",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "ext_conf_0217",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0218",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0219",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_lacks_alternative"
+        ]
+      },
+      {
+        "id": "ext_conf_0220",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0221",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0222",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0223",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0224",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0225",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0226",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0227",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0228",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0229",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0230",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "ext_conf_0231",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "ext_conf_0232",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0233",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0234",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0235",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0236",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0237",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0238",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0239",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0240",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0241",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0242",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0243",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0244",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0245",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0246",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0247",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0248",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0249",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0250",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0251",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0252",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0253",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0254",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_lacks_alternative"
+        ]
+      },
+      {
+        "id": "ext_conf_0255",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0256",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0257",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0258",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0259",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0260",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0261",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0262",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0263",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0264",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0265",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0266",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0267",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0268",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0269",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0270",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0271",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0272",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0273",
+        "gold_state": "conflicting",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_lacks_alternative",
+          "conflict_gold_not_supported"
+        ]
+      },
+      {
+        "id": "ext_conf_0274",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0275",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0276",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0277",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0278",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0279",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0280",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0281",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0282",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0283",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0284",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_conf_0285",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0286",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0287",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0288",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0289",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0290",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0291",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0292",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0293",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0294",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0295",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0296",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0297",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0298",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": []
+      },
+      {
+        "id": "ext_conf_0299",
+        "gold_state": "conflicting",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "conflict_doc_also_states_gold"
+        ]
+      },
+      {
+        "id": "ext_unan_0300",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0301",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0302",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0303",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0304",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0305",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0306",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0307",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0308",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0309",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0310",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0311",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0312",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0313",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0314",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0315",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0316",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0317",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0318",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0319",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0320",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0321",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0322",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0323",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0324",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0325",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0326",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0327",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0328",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_unan_0329",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0330",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0331",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0332",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0333",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0334",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0335",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_unan_0336",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0337",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0338",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0339",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0340",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0341",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0342",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0343",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0344",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0345",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_unan_0346",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0347",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0348",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0349",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0350",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0351",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0352",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0353",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "answer_not_checkable_by_string",
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0354",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0355",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0356",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0357",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0358",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0359",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0360",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0361",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0362",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0363",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0364",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_unan_0365",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0366",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0367",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0368",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0369",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0370",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0371",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0372",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0373",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0374",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0375",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0376",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0377",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0378",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0379",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0380",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0381",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0382",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0383",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0384",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0385",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0386",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0387",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0388",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0389",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0390",
+        "gold_state": "unanswerable",
+        "answer_in_initial": true,
+        "issues": [
+          "unanswerable_answer_present_in_pool"
+        ]
+      },
+      {
+        "id": "ext_unan_0391",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0392",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_unan_0393",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0394",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": [
+          "answer_not_checkable_by_string"
+        ]
+      },
+      {
+        "id": "ext_unan_0395",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0396",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0397",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0398",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      },
+      {
+        "id": "ext_unan_0399",
+        "gold_state": "unanswerable",
+        "answer_in_initial": false,
+        "issues": []
+      }
+    ]
+  }
+}

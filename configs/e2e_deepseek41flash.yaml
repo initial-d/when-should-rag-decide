@@ -1,0 +1,68 @@
+models:
+  decomposer: deepseek/deepseek-v4.1-flash
+  query_rewriter: deepseek/deepseek-v4.1-flash
+  answer_generator: deepseek/deepseek-v4.1-flash
+  claim_extractor: deepseek/deepseek-v4.1-flash
+  claim_verifier: deepseek/deepseek-v4.1-flash
+  intent_analyzer: deepseek/deepseek-v4.1-flash
+  cross_answer_check: deepseek/deepseek-v4.1-flash
+  need_coverage: deepseek/deepseek-v4.1-flash
+  gap_query_gen: deepseek/deepseek-v4.1-flash
+  clarification: deepseek/deepseek-v4.1-flash
+  conflict_report: deepseek/deepseek-v4.1-flash
+  abstention: deepseek/deepseek-v4.1-flash
+
+api:
+  # Key comes only from OPENAI_API_KEY / --key-file.
+  base_url: https://api.openai.com/v1  # change to your OpenAI-compatible endpoint
+  timeout: 180
+  max_retries: 4
+
+retrieval:
+  num_query_variants: 3
+  top_k: 5
+  method: bm25
+
+pipeline:
+  max_claims_per_answer: 8
+  max_evidence_docs_for_verification: 10
+
+controller:
+  type: rule
+
+intervention:
+  initial_only_observation: true
+
+loop:
+  max_rounds: 3
+  budget_calls: 30
+  early_stop: true
+
+freshness:
+  volatility_aware: false
+
+thresholds:
+  coverage: 0.5
+  support: 0.5
+  conflict: 0.3
+  disagreement: 0.5
+  novelty: 0.1
+  intent_ambiguity: 0.25
+  freshness: 0.2
+
+openai:
+  max_retries: 4
+  timeout: 180
+  temperature_answer: 0.3
+  temperature_claims: 0.0
+  temperature_decomposer: 0.0
+  temperature_rewriter: 0.5
+
+embedding:
+  model: all-MiniLM-L6-v2
+
+learned_classifier:
+  backends: [logistic]
+  cv_folds: 5
+  random_state: 42
+  models_dir: data/models

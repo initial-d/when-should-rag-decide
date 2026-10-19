@@ -1,0 +1,1790 @@
+{
+  "failures": [
+    {
+      "sample_id": "ext_suff_0007",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.25
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0004",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "wrong_first_action",
+        "unnecessary_retrieval_on_sufficient",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0008",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "retrieve-more",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 5,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.25,
+        "answer_support": 0.96,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.25
+      },
+      "causes": [
+        "wrong_first_action",
+        "unnecessary_retrieval_on_sufficient"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0106",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": true,
+      "n_claims": 12,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.25,
+        "answer_support": 0.58,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.25
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed",
+        "retrieved_but_terminal_action_wrong",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0108",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": false,
+      "retrieved_hidden": true,
+      "n_claims": 11,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.67,
+        "answer_support": 0.41,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.67
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed",
+        "retrieved_but_answer_wrong",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0118",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": false,
+      "retrieved_hidden": true,
+      "n_claims": 22,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed",
+        "retrieved_but_answer_wrong",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0208",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 12,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.99,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "wrong_first_action",
+        "conflict_not_reported"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0216",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "wrong_first_action",
+        "conflict_not_reported"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0119",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": false,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action",
+        "never_retrieved_hidden_evidence"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0113",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": true,
+      "retrieved_hidden": false,
+      "n_claims": 12,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.97,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action",
+        "never_retrieved_hidden_evidence"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0300",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 6,
+      "llm_calls": 29.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.33,
+        "answer_support": 0.98,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "wrong_first_action",
+        "abstained_question_answered"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0101",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": true,
+      "retrieved_hidden": false,
+      "n_claims": 1,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.25
+      },
+      "causes": [
+        "wrong_first_action",
+        "never_retrieved_hidden_evidence"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0102",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "report-conflict",
+      "answer_correct": false,
+      "retrieved_hidden": true,
+      "n_claims": 3,
+      "llm_calls": 27.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed",
+        "retrieved_but_terminal_action_wrong"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0109",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 5,
+      "llm_calls": 29.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed",
+        "retrieved_but_terminal_action_wrong"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0115",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": false,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action",
+        "never_retrieved_hidden_evidence"
+      ]
+    }
+  ],
+  "successes": [
+    {
+      "sample_id": "ext_suff_0001",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.67,
+        "answer_support": 0.96,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.67
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0005",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0003",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0006",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.67
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0000",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 6,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0002",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.98,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0010",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.99,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0011",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 6,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.33,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.67
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0012",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.99,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0009",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0014",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0019",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 6,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0016",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.67
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0017",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.67,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0015",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "answer",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 0.95,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0013",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 4,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.33,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "wrong_first_action",
+        "unnecessary_retrieval_on_sufficient",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0100",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 3,
+      "llm_calls": 28.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_suff_0018",
+      "gold_state": "sufficient",
+      "gold_action": "answer",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 28.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.75
+      },
+      "causes": [
+        "wrong_first_action",
+        "unnecessary_retrieval_on_sufficient"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0104",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 1,
+      "llm_calls": 21.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 1.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0103",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 3,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.25
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0105",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 6,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0107",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 3,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0110",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 6,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0111",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 4,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0112",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 20,
+      "llm_calls": 29.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.33,
+        "answer_support": 0.33,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0114",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 7,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0116",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 6,
+      "llm_calls": 29.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.33,
+        "answer_support": 0.5,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_miss_0117",
+      "gold_state": "missing",
+      "gold_action": "retrieve-more",
+      "first_action": "retrieve-more",
+      "terminal_action": "answer",
+      "answer_correct": true,
+      "retrieved_hidden": true,
+      "n_claims": 3,
+      "llm_calls": 26.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0200",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 0.98,
+        "source_conflict": 0.33,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0202",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.99,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0201",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 7,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 0.86,
+        "source_conflict": 0.33,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0203",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 1.0,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0204",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.67,
+        "answer_support": 1.0,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0205",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 6,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 0.98,
+        "source_conflict": 0.5,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0207",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 4,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.95,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0209",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 7,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.67,
+        "answer_support": 0.82,
+        "source_conflict": 0.25,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0210",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.25,
+        "answer_support": 1.0,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0211",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 9,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 0.97,
+        "source_conflict": 0.25,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0212",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 4,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 1.0,
+        "answer_support": 0.5,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0213",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.9,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0214",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.95,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0215",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 1,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.95,
+        "source_conflict": 1.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0219",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 12,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.73,
+        "source_conflict": 0.33,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0301",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "wrong_first_action",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0302",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0303",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0304",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 24.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0305",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 21.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.67,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0306",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0307",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 2,
+      "llm_calls": 14.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0308",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 24.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0309",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0310",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 14.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0311",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0312",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0313",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 1,
+      "llm_calls": 30.0,
+      "budget_exhausted": true,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.5
+      },
+      "causes": [
+        "wrong_first_action",
+        "budget_exhausted"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0314",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "abstain",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 6,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0315",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 24.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0316",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0317",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0318",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 21.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.33
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_unan_0319",
+      "gold_state": "unanswerable",
+      "gold_action": "abstain",
+      "first_action": "retrieve-more",
+      "terminal_action": "abstain",
+      "answer_correct": false,
+      "retrieved_hidden": null,
+      "n_claims": 0,
+      "llm_calls": 18.0,
+      "budget_exhausted": false,
+      "rounds": 2,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 0.0
+      },
+      "causes": [
+        "wrong_first_action"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0218",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0217",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 5,
+      "llm_calls": 16.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.5,
+        "answer_support": 0.98,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    },
+    {
+      "sample_id": "ext_conf_0206",
+      "gold_state": "conflicting",
+      "gold_action": "report-conflict",
+      "first_action": "report-conflict",
+      "terminal_action": "report-conflict",
+      "answer_correct": true,
+      "retrieved_hidden": null,
+      "n_claims": 3,
+      "llm_calls": 15.0,
+      "budget_exhausted": false,
+      "rounds": 1,
+      "round0_signal": {
+        "need_coverage": 0.0,
+        "answer_support": 0.0,
+        "source_conflict": 0.0,
+        "critical_need_recall": 1.0
+      },
+      "causes": [
+        "decision_correct_but_outcome_failed"
+      ]
+    }
+  ]
+}

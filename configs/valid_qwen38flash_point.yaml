@@ -1,0 +1,67 @@
+models:
+  decomposer: qwen/qwen3.8-flash
+  query_rewriter: qwen/qwen3.8-flash
+  answer_generator: qwen/qwen3.8-flash
+  claim_extractor: qwen/qwen3.8-flash
+  claim_verifier: qwen/qwen3.8-flash
+  intent_analyzer: qwen/qwen3.8-flash
+  cross_answer_check: qwen/qwen3.8-flash
+  need_coverage: qwen/qwen3.8-flash
+  gap_query_gen: qwen/qwen3.8-flash
+  clarification: qwen/qwen3.8-flash
+  conflict_report: qwen/qwen3.8-flash
+  abstention: qwen/qwen3.8-flash
+api:
+  base_url: https://api.openai.com/v1  # change to your OpenAI-compatible endpoint
+  timeout: 180
+  max_retries: 4
+retrieval:
+  num_query_variants: 3
+  top_k: 5
+  method: bm25
+pipeline:
+  max_claims_per_answer: 8
+  max_evidence_docs_for_verification: 10
+  joint_verification: true
+  critical_need_check: true
+  memory_retrieval: true
+controller:
+  type: point
+  disabled_states:
+  - underspecified
+  - outdated
+  resolve_open_terminal: true
+  point_policy_path: data/models/qwen38flash_point_policy.pkl
+intervention:
+  initial_only_observation: true
+loop:
+  max_rounds: 3
+  budget_calls: 30
+  early_stop: true
+freshness:
+  volatility_aware: false
+thresholds:
+  coverage: 0.5
+  support: 0.5
+  conflict: 0.3
+  disagreement: 0.5
+  novelty: 0.1
+  intent_ambiguity: 0.25
+  freshness: 0.2
+  round0_critical_need: 0.5
+  round0_conflict: 0.25
+openai:
+  max_retries: 4
+  timeout: 180
+  temperature_answer: 0.3
+  temperature_claims: 0.0
+  temperature_decomposer: 0.0
+  temperature_rewriter: 0.5
+embedding:
+  model: all-MiniLM-L6-v2
+learned_classifier:
+  backends:
+  - logistic
+  cv_folds: 5
+  random_state: 42
+  models_dir: data/models

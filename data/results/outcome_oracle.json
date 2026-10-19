@@ -1,0 +1,226 @@
+{
+  "deepseek41flash": {
+    "pairing_ok": true,
+    "rows": {
+      "all": {
+        "n": 400,
+        "both_succeed": 0.74,
+        "only_diagnose_first": 0.035,
+        "only_retrieve_first": 0.0875,
+        "both_fail": 0.1375,
+        "diagnose_first": 0.775,
+        "retrieve_first": 0.8275,
+        "outcome_oracle": 0.8625,
+        "oracle_calls": 14.895,
+        "retrieve_first_calls": 14.4025
+      },
+      "sufficient": {
+        "n": 100,
+        "both_succeed": 0.71,
+        "only_diagnose_first": 0.06,
+        "only_retrieve_first": 0.05,
+        "both_fail": 0.18,
+        "diagnose_first": 0.77,
+        "retrieve_first": 0.76,
+        "outcome_oracle": 0.8200000000000001,
+        "oracle_calls": 15.38,
+        "retrieve_first_calls": 15.08
+      },
+      "missing": {
+        "n": 100,
+        "both_succeed": 0.57,
+        "only_diagnose_first": 0.03,
+        "only_retrieve_first": 0.21,
+        "both_fail": 0.19,
+        "diagnose_first": 0.6,
+        "retrieve_first": 0.78,
+        "outcome_oracle": 0.81,
+        "oracle_calls": 16.18,
+        "retrieve_first_calls": 15.11
+      },
+      "conflicting": {
+        "n": 100,
+        "both_succeed": 0.74,
+        "only_diagnose_first": 0.05,
+        "only_retrieve_first": 0.06,
+        "both_fail": 0.15,
+        "diagnose_first": 0.79,
+        "retrieve_first": 0.8,
+        "outcome_oracle": 0.85,
+        "oracle_calls": 16.06,
+        "retrieve_first_calls": 15.58
+      },
+      "unanswerable": {
+        "n": 100,
+        "both_succeed": 0.94,
+        "only_diagnose_first": 0.0,
+        "only_retrieve_first": 0.03,
+        "both_fail": 0.03,
+        "diagnose_first": 0.94,
+        "retrieve_first": 0.97,
+        "outcome_oracle": 0.97,
+        "oracle_calls": 11.96,
+        "retrieve_first_calls": 11.84
+      }
+    },
+    "gold_state_consistency": {
+      "success_agreement": 0.94,
+      "composed_gold_state_gate": 0.82,
+      "stored_gold_state_gate": 0.82
+    },
+    "repeatability": {
+      "pairing_ok": true,
+      "rerun_disagreement": 0.06,
+      "repeat_oracle": 0.85,
+      "repeat_gain_over_single_run": [
+        0.03,
+        0.015,
+        0.0475
+      ],
+      "cross_oracle_minus_rf": [
+        0.035,
+        0.0175,
+        0.055
+      ],
+      "cross_oracle_minus_repeat_oracle": [
+        0.0125,
+        -0.0025,
+        0.03
+      ],
+      "per_state": {
+        "sufficient": {
+          "rerun_disagreement": 0.06,
+          "repeat_oracle": 0.8,
+          "cross_oracle": 0.82
+        },
+        "missing": {
+          "rerun_disagreement": 0.1,
+          "repeat_oracle": 0.83,
+          "cross_oracle": 0.81
+        },
+        "conflicting": {
+          "rerun_disagreement": 0.07,
+          "repeat_oracle": 0.82,
+          "cross_oracle": 0.85
+        },
+        "unanswerable": {
+          "rerun_disagreement": 0.01,
+          "repeat_oracle": 0.95,
+          "cross_oracle": 0.97
+        }
+      }
+    }
+  },
+  "qwen38flash": {
+    "pairing_ok": true,
+    "rows": {
+      "all": {
+        "n": 400,
+        "both_succeed": 0.725,
+        "only_diagnose_first": 0.045,
+        "only_retrieve_first": 0.0875,
+        "both_fail": 0.1425,
+        "diagnose_first": 0.77,
+        "retrieve_first": 0.8125,
+        "outcome_oracle": 0.8575,
+        "oracle_calls": 15.415,
+        "retrieve_first_calls": 14.76
+      },
+      "sufficient": {
+        "n": 100,
+        "both_succeed": 0.71,
+        "only_diagnose_first": 0.07,
+        "only_retrieve_first": 0.04,
+        "both_fail": 0.18,
+        "diagnose_first": 0.78,
+        "retrieve_first": 0.75,
+        "outcome_oracle": 0.8200000000000001,
+        "oracle_calls": 15.7,
+        "retrieve_first_calls": 15.05
+      },
+      "missing": {
+        "n": 100,
+        "both_succeed": 0.56,
+        "only_diagnose_first": 0.03,
+        "only_retrieve_first": 0.23,
+        "both_fail": 0.18,
+        "diagnose_first": 0.59,
+        "retrieve_first": 0.79,
+        "outcome_oracle": 0.8200000000000001,
+        "oracle_calls": 16.45,
+        "retrieve_first_calls": 15.06
+      },
+      "conflicting": {
+        "n": 100,
+        "both_succeed": 0.7,
+        "only_diagnose_first": 0.05,
+        "only_retrieve_first": 0.07,
+        "both_fail": 0.18,
+        "diagnose_first": 0.75,
+        "retrieve_first": 0.77,
+        "outcome_oracle": 0.8200000000000001,
+        "oracle_calls": 15.8,
+        "retrieve_first_calls": 15.53
+      },
+      "unanswerable": {
+        "n": 100,
+        "both_succeed": 0.93,
+        "only_diagnose_first": 0.03,
+        "only_retrieve_first": 0.01,
+        "both_fail": 0.03,
+        "diagnose_first": 0.96,
+        "retrieve_first": 0.94,
+        "outcome_oracle": 0.97,
+        "oracle_calls": 13.71,
+        "retrieve_first_calls": 13.4
+      }
+    },
+    "gold_state_consistency": {
+      "success_agreement": 0.97,
+      "composed_gold_state_gate": 0.82,
+      "stored_gold_state_gate": 0.82
+    },
+    "repeatability": {
+      "pairing_ok": true,
+      "rerun_disagreement": 0.03,
+      "repeat_oracle": 0.835,
+      "repeat_gain_over_single_run": [
+        0.015,
+        0.005,
+        0.0275
+      ],
+      "cross_oracle_minus_rf": [
+        0.045,
+        0.025,
+        0.0675
+      ],
+      "cross_oracle_minus_repeat_oracle": [
+        0.0225,
+        0.0025,
+        0.045
+      ],
+      "per_state": {
+        "sufficient": {
+          "rerun_disagreement": 0.03,
+          "repeat_oracle": 0.81,
+          "cross_oracle": 0.82
+        },
+        "missing": {
+          "rerun_disagreement": 0.02,
+          "repeat_oracle": 0.79,
+          "cross_oracle": 0.82
+        },
+        "conflicting": {
+          "rerun_disagreement": 0.05,
+          "repeat_oracle": 0.77,
+          "cross_oracle": 0.82
+        },
+        "unanswerable": {
+          "rerun_disagreement": 0.02,
+          "repeat_oracle": 0.97,
+          "cross_oracle": 0.97
+        }
+      }
+    }
+  }
+}

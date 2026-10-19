@@ -1,0 +1,362 @@
+{
+  "deepseek41flash": {
+    "n": 400,
+    "cells": {
+      "df/rule": {
+        "task_success": 0.7675,
+        "calls": 20.765,
+        "gate_retrieve_rate": null
+      },
+      "df/point": {
+        "task_success": 0.775,
+        "calls": 18.42,
+        "gate_retrieve_rate": null
+      },
+      "df/hull": {
+        "task_success": 0.785,
+        "calls": 18.4975,
+        "gate_retrieve_rate": null
+      },
+      "rf/rule": {
+        "task_success": 0.765,
+        "calls": 16.2675,
+        "gate_retrieve_rate": null
+      },
+      "rf/point": {
+        "task_success": 0.8275,
+        "calls": 14.4025,
+        "gate_retrieve_rate": null
+      },
+      "rf/hull": {
+        "task_success": 0.8075,
+        "calls": 14.415,
+        "gate_retrieve_rate": null
+      },
+      "base/always_retrieve": {
+        "task_success": 0.4275,
+        "calls": 2.0,
+        "gate_retrieve_rate": null
+      },
+      "adaptive/confidence": {
+        "task_success": 0.8075,
+        "calls": 15.835,
+        "gate_retrieve_rate": 0.6425
+      },
+      "adaptive/complexity": {
+        "task_success": 0.7925,
+        "calls": 16.5325,
+        "gate_retrieve_rate": 0.57
+      },
+      "adaptive/oracle": {
+        "task_success": 0.82,
+        "calls": 16.4375,
+        "gate_retrieve_rate": 0.25
+      },
+      "rf/rule_tuned": {
+        "task_success": 0.7675,
+        "calls": 14.825,
+        "gate_retrieve_rate": null
+      }
+    },
+    "contrasts": {
+      "df: point-rule": [
+        0.0075,
+        -0.03,
+        0.045
+      ],
+      "df: hull-rule": [
+        0.0175,
+        -0.02006249999999998,
+        0.0575
+      ],
+      "df: hull-point": [
+        0.01,
+        -0.02,
+        0.04
+      ],
+      "rf: point-rule": [
+        0.0625,
+        0.03,
+        0.0975
+      ],
+      "rf: hull-rule": [
+        0.0425,
+        0.01,
+        0.075
+      ],
+      "rf: hull-point": [
+        -0.02,
+        -0.0475,
+        0.0075
+      ],
+      "order effect (rule): rf-df": [
+        -0.0025,
+        -0.035,
+        0.0275
+      ],
+      "order effect (point): rf-df": [
+        0.0525,
+        0.01993750000000002,
+        0.0875
+      ],
+      "order effect (hull): rf-df": [
+        0.0225,
+        -0.0125,
+        0.0575
+      ],
+      "interaction: (rf-df)_point - (rf-df)_rule": [
+        0.055,
+        0.0175,
+        0.095
+      ],
+      "rf point - always_retrieve": [
+        0.4,
+        0.3425,
+        0.4575
+      ],
+      "rf point - rf rule_tuned": [
+        0.06,
+        0.0275,
+        0.095
+      ],
+      "rf rule_tuned - rf rule": [
+        0.0025,
+        -0.02,
+        0.025
+      ],
+      "order effect (rule_tuned): rf-df": [
+        0.0,
+        -0.03,
+        0.03
+      ],
+      "interaction (tuned): (rf-df)_point - (rf_tuned-df)_rule": [
+        0.0525,
+        0.015,
+        0.09
+      ],
+      "rf point - adaptive confidence": [
+        0.02,
+        -0.005,
+        0.0475
+      ],
+      "adaptive confidence - df point": [
+        0.0325,
+        0.0025,
+        0.0625
+      ],
+      "rf point - adaptive complexity": [
+        0.035,
+        0.0075,
+        0.065
+      ],
+      "adaptive complexity - df point": [
+        0.0175,
+        -0.01,
+        0.045
+      ],
+      "rf point - adaptive oracle": [
+        0.0075,
+        -0.0175,
+        0.0325
+      ],
+      "adaptive oracle - df point": [
+        0.045,
+        0.0175,
+        0.075
+      ]
+    },
+    "calls": {
+      "df/rule": 20.765,
+      "df/point": 18.42,
+      "df/hull": 18.4975,
+      "rf/rule": 16.2675,
+      "rf/point": 14.4025,
+      "rf/hull": 14.415,
+      "base/always_retrieve": 2.0,
+      "adaptive/confidence": 15.835,
+      "adaptive/complexity": 16.5325,
+      "adaptive/oracle": 16.4375,
+      "rf/rule_tuned": 14.825
+    }
+  },
+  "qwen38flash": {
+    "n": 400,
+    "cells": {
+      "df/rule": {
+        "task_success": 0.7275,
+        "calls": 21.93,
+        "gate_retrieve_rate": null
+      },
+      "df/point": {
+        "task_success": 0.77,
+        "calls": 18.6075,
+        "gate_retrieve_rate": null
+      },
+      "df/hull": {
+        "task_success": 0.765,
+        "calls": 19.03,
+        "gate_retrieve_rate": null
+      },
+      "rf/rule": {
+        "task_success": 0.69,
+        "calls": 17.3825,
+        "gate_retrieve_rate": null
+      },
+      "rf/point": {
+        "task_success": 0.8125,
+        "calls": 14.76,
+        "gate_retrieve_rate": null
+      },
+      "rf/hull": {
+        "task_success": 0.805,
+        "calls": 14.805,
+        "gate_retrieve_rate": null
+      },
+      "base/always_retrieve": {
+        "task_success": 0.4325,
+        "calls": 2.0,
+        "gate_retrieve_rate": null
+      },
+      "adaptive/confidence": {
+        "task_success": 0.8,
+        "calls": 16.01,
+        "gate_retrieve_rate": 0.6875
+      },
+      "adaptive/complexity": {
+        "task_success": 0.79,
+        "calls": 16.205,
+        "gate_retrieve_rate": 0.69
+      },
+      "adaptive/oracle": {
+        "task_success": 0.82,
+        "calls": 16.5725,
+        "gate_retrieve_rate": 0.25
+      },
+      "rf/rule_tuned": {
+        "task_success": 0.71,
+        "calls": 15.2275,
+        "gate_retrieve_rate": null
+      }
+    },
+    "contrasts": {
+      "df: point-rule": [
+        0.0425,
+        0.0,
+        0.085
+      ],
+      "df: hull-rule": [
+        0.0375,
+        -0.005,
+        0.08
+      ],
+      "df: hull-point": [
+        -0.005,
+        -0.03,
+        0.0225
+      ],
+      "rf: point-rule": [
+        0.1225,
+        0.085,
+        0.16006249999999908
+      ],
+      "rf: hull-rule": [
+        0.115,
+        0.075,
+        0.155
+      ],
+      "rf: hull-point": [
+        -0.0075,
+        -0.0375,
+        0.025
+      ],
+      "order effect (rule): rf-df": [
+        -0.0375,
+        -0.0725,
+        -0.0024375000000009094
+      ],
+      "order effect (point): rf-df": [
+        0.0425,
+        0.0075,
+        0.0775
+      ],
+      "order effect (hull): rf-df": [
+        0.04,
+        0.0025,
+        0.0775
+      ],
+      "interaction: (rf-df)_point - (rf-df)_rule": [
+        0.08,
+        0.035,
+        0.1275
+      ],
+      "rf point - always_retrieve": [
+        0.38,
+        0.3225,
+        0.435
+      ],
+      "rf point - rf rule_tuned": [
+        0.1025,
+        0.07,
+        0.1375
+      ],
+      "rf rule_tuned - rf rule": [
+        0.02,
+        -0.0075,
+        0.0475
+      ],
+      "order effect (rule_tuned): rf-df": [
+        -0.0175,
+        -0.0525,
+        0.015
+      ],
+      "interaction (tuned): (rf-df)_point - (rf_tuned-df)_rule": [
+        0.06,
+        0.02,
+        0.1025
+      ],
+      "rf point - adaptive confidence": [
+        0.0125,
+        -0.0125,
+        0.0375
+      ],
+      "adaptive confidence - df point": [
+        0.03,
+        -0.0025,
+        0.0625
+      ],
+      "rf point - adaptive complexity": [
+        0.0225,
+        -0.005,
+        0.0525
+      ],
+      "adaptive complexity - df point": [
+        0.02,
+        -0.0125,
+        0.0525
+      ],
+      "rf point - adaptive oracle": [
+        -0.0075,
+        -0.035,
+        0.02
+      ],
+      "adaptive oracle - df point": [
+        0.05,
+        0.02,
+        0.08
+      ]
+    },
+    "calls": {
+      "df/rule": 21.93,
+      "df/point": 18.6075,
+      "df/hull": 19.03,
+      "rf/rule": 17.3825,
+      "rf/point": 14.76,
+      "rf/hull": 14.805,
+      "base/always_retrieve": 2.0,
+      "adaptive/confidence": 16.01,
+      "adaptive/complexity": 16.205,
+      "adaptive/oracle": 16.5725,
+      "rf/rule_tuned": 15.2275
+    }
+  }
+}

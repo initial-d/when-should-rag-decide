@@ -1,0 +1,128 @@
+{
+ "deepseek41flash": {
+  "objective": "balanced accuracy over post-retrieval observed states on valid_dev round-1 features",
+  "n": 372,
+  "base": [
+   0.6806627919622926,
+   0.6639784946236559
+  ],
+  "best": [
+   0.7998149284875565,
+   0.8064516129032258
+  ],
+  "thresholds": {
+   "coverage": 0.1,
+   "support": 0.1,
+   "conflict": 0.25,
+   "critical_need": 0,
+   "unanswerable_coverage": 0.3,
+   "unanswerable_support": 0.4
+  },
+  "grid": {
+   "coverage": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+   ],
+   "support": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+   ],
+   "conflict": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+   ],
+   "critical_need": [
+    0,
+    0.3,
+    0.6
+   ],
+   "unanswerable_coverage": [
+    0.1,
+    0.2,
+    0.3
+   ],
+   "unanswerable_support": [
+    0.3,
+    0.4,
+    0.5
+   ]
+  }
+ },
+ "qwen38flash": {
+  "objective": "balanced accuracy over post-retrieval observed states on valid_dev round-1 features",
+  "n": 372,
+  "base": [
+   0.6295434226801083,
+   0.6155913978494624
+  ],
+  "best": [
+   0.7800318160787327,
+   0.793010752688172
+  ],
+  "thresholds": {
+   "coverage": 0.1,
+   "support": 0.1,
+   "conflict": 0.05,
+   "critical_need": 0,
+   "unanswerable_coverage": 0.1,
+   "unanswerable_support": 0.5
+  },
+  "grid": {
+   "coverage": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+   ],
+   "support": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6
+   ],
+   "conflict": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+   ],
+   "critical_need": [
+    0,
+    0.3,
+    0.6
+   ],
+   "unanswerable_coverage": [
+    0.1,
+    0.2,
+    0.3
+   ],
+   "unanswerable_support": [
+    0.3,
+    0.4,
+    0.5
+   ]
+  }
+ }
+}

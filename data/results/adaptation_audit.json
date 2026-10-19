@@ -1,0 +1,200 @@
+{
+  "deepseek41flash": {
+    "pairing_ok": true,
+    "cells": {
+      "DF": {
+        "task_success": 0.775,
+        "calls": 18.42,
+        "per_state": {
+          "sufficient": 0.77,
+          "missing": 0.6,
+          "conflicting": 0.79,
+          "unanswerable": 0.94
+        }
+      },
+      "RF-fixed": {
+        "task_success": 0.795,
+        "calls": 14.97,
+        "per_state": {
+          "sufficient": 0.71,
+          "missing": 0.74,
+          "conflicting": 0.77,
+          "unanswerable": 0.96
+        }
+      },
+      "RF-gold": {
+        "task_success": 0.7875,
+        "calls": 16.5675,
+        "per_state": {
+          "sufficient": 0.67,
+          "missing": 0.74,
+          "conflicting": 0.78,
+          "unanswerable": 0.96
+        }
+      },
+      "RF": {
+        "task_success": 0.8275,
+        "calls": 14.4025,
+        "per_state": {
+          "sufficient": 0.76,
+          "missing": 0.78,
+          "conflicting": 0.8,
+          "unanswerable": 0.97
+        }
+      }
+    },
+    "contrasts": {
+      "timing": {
+        "diff": 0.02,
+        "ci": [
+          -0.01,
+          0.0525
+        ],
+        "per_state": {
+          "sufficient": -0.06,
+          "missing": 0.14,
+          "conflicting": -0.02,
+          "unanswerable": 0.02
+        }
+      },
+      "retraining": {
+        "diff": -0.0075,
+        "ci": [
+          -0.02756249999999998,
+          0.015
+        ],
+        "per_state": {
+          "sufficient": -0.04,
+          "missing": 0.0,
+          "conflicting": 0.01,
+          "unanswerable": 0.0
+        }
+      },
+      "relabel": {
+        "diff": 0.04,
+        "ci": [
+          0.0125,
+          0.0675
+        ],
+        "per_state": {
+          "sufficient": 0.09,
+          "missing": 0.04,
+          "conflicting": 0.02,
+          "unanswerable": 0.01
+        }
+      },
+      "total": {
+        "diff": 0.0525,
+        "ci": [
+          0.02,
+          0.0875
+        ],
+        "per_state": {
+          "sufficient": -0.01,
+          "missing": 0.18,
+          "conflicting": 0.01,
+          "unanswerable": 0.03
+        }
+      }
+    }
+  },
+  "qwen38flash": {
+    "pairing_ok": true,
+    "cells": {
+      "DF": {
+        "task_success": 0.77,
+        "calls": 18.6075,
+        "per_state": {
+          "sufficient": 0.78,
+          "missing": 0.59,
+          "conflicting": 0.75,
+          "unanswerable": 0.96
+        }
+      },
+      "RF-fixed": {
+        "task_success": 0.805,
+        "calls": 15.5025,
+        "per_state": {
+          "sufficient": 0.77,
+          "missing": 0.75,
+          "conflicting": 0.75,
+          "unanswerable": 0.95
+        }
+      },
+      "RF-gold": {
+        "task_success": 0.8025,
+        "calls": 16.94,
+        "per_state": {
+          "sufficient": 0.77,
+          "missing": 0.76,
+          "conflicting": 0.75,
+          "unanswerable": 0.93
+        }
+      },
+      "RF": {
+        "task_success": 0.8125,
+        "calls": 14.76,
+        "per_state": {
+          "sufficient": 0.75,
+          "missing": 0.79,
+          "conflicting": 0.77,
+          "unanswerable": 0.94
+        }
+      }
+    },
+    "contrasts": {
+      "timing": {
+        "diff": 0.035,
+        "ci": [
+          0.0,
+          0.07
+        ],
+        "per_state": {
+          "sufficient": -0.01,
+          "missing": 0.16,
+          "conflicting": 0.0,
+          "unanswerable": -0.01
+        }
+      },
+      "retraining": {
+        "diff": -0.0025,
+        "ci": [
+          -0.0225,
+          0.0175
+        ],
+        "per_state": {
+          "sufficient": 0.0,
+          "missing": 0.01,
+          "conflicting": 0.0,
+          "unanswerable": -0.02
+        }
+      },
+      "relabel": {
+        "diff": 0.01,
+        "ci": [
+          -0.01,
+          0.03
+        ],
+        "per_state": {
+          "sufficient": -0.02,
+          "missing": 0.03,
+          "conflicting": 0.02,
+          "unanswerable": 0.01
+        }
+      },
+      "total": {
+        "diff": 0.0425,
+        "ci": [
+          0.0075,
+          0.07756249999999909
+        ],
+        "per_state": {
+          "sufficient": -0.03,
+          "missing": 0.2,
+          "conflicting": 0.02,
+          "unanswerable": -0.02
+        }
+      }
+    }
+  }
+}

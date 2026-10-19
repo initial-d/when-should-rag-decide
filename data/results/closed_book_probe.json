@@ -1,0 +1,3206 @@
+{
+  "deepseek/deepseek-v4.1-flash": {
+    "val_suff_0000": {
+      "answer": "Yes",
+      "correct": false
+    },
+    "val_suff_0004": {
+      "answer": "Love Letter",
+      "correct": true
+    },
+    "val_suff_0008": {
+      "answer": "Switzerland",
+      "correct": false
+    },
+    "val_suff_0012": {
+      "answer": "mythological films",
+      "correct": false
+    },
+    "val_suff_0016": {
+      "answer": "Dick DeVos",
+      "correct": true
+    },
+    "val_suff_0020": {
+      "answer": "May Revolution",
+      "correct": true
+    },
+    "val_suff_0024": {
+      "answer": "1970",
+      "correct": false
+    },
+    "val_suff_0028": {
+      "answer": "Stockholm",
+      "correct": false
+    },
+    "val_suff_0033": {
+      "answer": "Film director",
+      "correct": true
+    },
+    "val_suff_0037": {
+      "answer": "Gary Oldman",
+      "correct": true
+    },
+    "val_suff_0042": {
+      "answer": "extreme metal",
+      "correct": true
+    },
+    "val_suff_0046": {
+      "answer": "1993–2001",
+      "correct": true
+    },
+    "val_suff_0052": {
+      "answer": "1999",
+      "correct": true
+    },
+    "val_suff_0056": {
+      "answer": "Oscar Pistorius",
+      "correct": true
+    },
+    "val_suff_0060": {
+      "answer": "Wes Studi",
+      "correct": true
+    },
+    "val_suff_0064": {
+      "answer": "Battle of Arracourt and Battle of the Bulge",
+      "correct": true
+    },
+    "val_suff_0070": {
+      "answer": "Teddy Riley",
+      "correct": true
+    },
+    "val_suff_0074": {
+      "answer": "Elvis' Christmas Album",
+      "correct": true
+    },
+    "val_suff_0081": {
+      "answer": "2016 Sleaford and North Hykeham by-election",
+      "correct": true
+    },
+    "val_suff_0085": {
+      "answer": "Denmark men's national ice hockey team",
+      "correct": true
+    },
+    "val_suff_0089": {
+      "answer": "1996 PGA Championship",
+      "correct": true
+    },
+    "val_suff_0093": {
+      "answer": "Philip K. Dick",
+      "correct": true
+    },
+    "val_suff_0097": {
+      "answer": "December 31, 2015",
+      "correct": true
+    },
+    "val_suff_0101": {
+      "answer": "Ralph Stanley II",
+      "correct": true
+    },
+    "val_suff_0105": {
+      "answer": "Incognito",
+      "correct": false
+    },
+    "val_suff_0109": {
+      "answer": "Amon Göth",
+      "correct": true
+    },
+    "val_suff_0115": {
+      "answer": "George Harrison",
+      "correct": false
+    },
+    "val_suff_0120": {
+      "answer": "Shakespeare Workshop",
+      "correct": false
+    },
+    "val_suff_0125": {
+      "answer": "British",
+      "correct": true
+    },
+    "val_suff_0131": {
+      "answer": "North Atlantic Conference",
+      "correct": true
+    },
+    "val_suff_0135": {
+      "answer": "Will Eisner",
+      "correct": false
+    },
+    "val_suff_0139": {
+      "answer": "Matt Gonzalez",
+      "correct": false
+    },
+    "val_suff_0144": {
+      "answer": "University of Southern California",
+      "correct": true
+    },
+    "val_suff_0148": {
+      "answer": "Field of Dreams",
+      "correct": true
+    },
+    "val_suff_0153": {
+      "answer": "Fulla; Grímnismál, Gylfaginning, Skáldskaparmál, and the Merseburg Incantations.",
+      "correct": false
+    },
+    "val_suff_0158": {
+      "answer": "Grupo 5 de Caza (5th Fighter Group)",
+      "correct": false
+    },
+    "val_suff_0162": {
+      "answer": "French Canadians",
+      "correct": true
+    },
+    "val_suff_0168": {
+      "answer": "Don Johnson",
+      "correct": false
+    },
+    "val_suff_0172": {
+      "answer": "Stuart Price's home studio",
+      "correct": true
+    },
+    "val_suff_0176": {
+      "answer": "1951",
+      "correct": false
+    },
+    "val_suff_0180": {
+      "answer": "Jon Walker",
+      "correct": false
+    },
+    "val_suff_0185": {
+      "answer": "Grigori Aleksandrov",
+      "correct": true
+    },
+    "val_suff_0190": {
+      "answer": "Bardot",
+      "correct": true
+    },
+    "val_suff_0194": {
+      "answer": "Chris Corbould and Neil Corbould",
+      "correct": true
+    },
+    "val_suff_0200": {
+      "answer": "IK Start",
+      "correct": true
+    },
+    "val_suff_0204": {
+      "answer": "Cincinnati",
+      "correct": false
+    },
+    "val_suff_0208": {
+      "answer": "Action thriller",
+      "correct": false
+    },
+    "val_suff_0212": {
+      "answer": "Killeen, Texas",
+      "correct": false
+    },
+    "val_suff_0216": {
+      "answer": "99 acres",
+      "correct": false
+    },
+    "val_suff_0221": {
+      "answer": "Marquis de Lafayette",
+      "correct": true
+    },
+    "val_suff_0225": {
+      "answer": "Alice's Adventures in Wonderland",
+      "correct": true
+    },
+    "val_suff_0229": {
+      "answer": "Oedipus Rex",
+      "correct": true
+    },
+    "val_suff_0233": {
+      "answer": "Mark Helfrich",
+      "correct": true
+    },
+    "val_suff_0237": {
+      "answer": "Sufism",
+      "correct": true
+    },
+    "val_suff_0242": {
+      "answer": "Rumi",
+      "correct": true
+    },
+    "val_suff_0248": {
+      "answer": "Operation Dragoon",
+      "correct": false
+    },
+    "val_suff_0254": {
+      "answer": "bisexuality",
+      "correct": true
+    },
+    "val_suff_0259": {
+      "answer": "Cigar store Indian",
+      "correct": false
+    },
+    "val_suff_0263": {
+      "answer": "Normalized earnings analysis",
+      "correct": false
+    },
+    "val_suff_0267": {
+      "answer": "He is his son.",
+      "correct": true
+    },
+    "val_suff_0279": {
+      "answer": "University of Chicago",
+      "correct": false
+    },
+    "val_suff_0285": {
+      "answer": "The Fault in Our Stars",
+      "correct": true
+    },
+    "val_suff_0289": {
+      "answer": "United States",
+      "correct": true
+    },
+    "val_suff_0293": {
+      "answer": "35,124",
+      "correct": true
+    },
+    "val_suff_0298": {
+      "answer": "Nicholas Kristof",
+      "correct": true
+    },
+    "val_suff_0303": {
+      "answer": "10",
+      "correct": true
+    },
+    "val_suff_0307": {
+      "answer": "John Garabedian",
+      "correct": true
+    },
+    "val_suff_0311": {
+      "answer": "Carson City",
+      "correct": true
+    },
+    "val_suff_0316": {
+      "answer": "Sherwood Cryer and Mickey Gilley",
+      "correct": true
+    },
+    "val_suff_0320": {
+      "answer": "Duval County",
+      "correct": true
+    },
+    "val_suff_0324": {
+      "answer": "MUD",
+      "correct": false
+    },
+    "val_suff_0329": {
+      "answer": "R-Point",
+      "correct": true
+    },
+    "val_suff_0333": {
+      "answer": "Pim Fortuyn",
+      "correct": true
+    },
+    "val_suff_0339": {
+      "answer": "plasma",
+      "correct": true
+    },
+    "val_suff_0344": {
+      "answer": "Lionel Hollins",
+      "correct": true
+    },
+    "val_suff_0350": {
+      "answer": "Homeland",
+      "correct": true
+    },
+    "val_suff_0354": {
+      "answer": "25 December 1941",
+      "correct": true
+    },
+    "val_suff_0358": {
+      "answer": "27 December 2004",
+      "correct": false
+    },
+    "val_suff_0363": {
+      "answer": "Vossi Bop",
+      "correct": false
+    },
+    "val_suff_0367": {
+      "answer": "Château d'Hérouville in France",
+      "correct": true
+    },
+    "val_suff_0373": {
+      "answer": "Kuno Becker",
+      "correct": true
+    },
+    "val_suff_0377": {
+      "answer": "Big 12",
+      "correct": true
+    },
+    "val_suff_0383": {
+      "answer": "shock cavalry",
+      "correct": false
+    },
+    "val_suff_0388": {
+      "answer": "The Hurt Locker",
+      "correct": false
+    },
+    "val_suff_0392": {
+      "answer": "13",
+      "correct": true
+    },
+    "val_suff_0396": {
+      "answer": "2005",
+      "correct": true
+    },
+    "val_suff_0401": {
+      "answer": "Colm Feore",
+      "correct": false
+    },
+    "val_suff_0405": {
+      "answer": "December 17, 1974",
+      "correct": true
+    },
+    "val_suff_0409": {
+      "answer": "Dutch",
+      "correct": true
+    },
+    "val_suff_0413": {
+      "answer": "All Quiet on the Western Front",
+      "correct": false
+    },
+    "val_suff_0417": {
+      "answer": "Aeroflot",
+      "correct": true
+    },
+    "val_suff_0421": {
+      "answer": "Rhode Island School of Design",
+      "correct": true
+    },
+    "val_suff_0426": {
+      "answer": "claymation",
+      "correct": false
+    },
+    "val_suff_0430": {
+      "answer": "Patricia Arquette",
+      "correct": true
+    },
+    "val_suff_0434": {
+      "answer": "Debbie Harry",
+      "correct": true
+    },
+    "val_suff_0440": {
+      "answer": "BBC Radio 5 Live",
+      "correct": false
+    },
+    "val_suff_0444": {
+      "answer": "51,271",
+      "correct": true
+    },
+    "val_suff_0450": {
+      "answer": "Kat Craddock",
+      "correct": false
+    },
+    "val_suff_0455": {
+      "answer": "Esperanza Spalding",
+      "correct": true
+    },
+    "val_suff_0459": {
+      "answer": "Brenton Thwaites",
+      "correct": true
+    },
+    "val_miss_0001": {
+      "answer": "Christina Ricci",
+      "correct": false
+    },
+    "val_miss_0005": {
+      "answer": "Adrenal cortex (zona glomerulosa)",
+      "correct": true
+    },
+    "val_miss_0009": {
+      "answer": "Kangpenqing",
+      "correct": true
+    },
+    "val_miss_0013": {
+      "answer": "Collins",
+      "correct": true
+    },
+    "val_miss_0017": {
+      "answer": "Saloon",
+      "correct": false
+    },
+    "val_miss_0021": {
+      "answer": "Distinguished Service Cross",
+      "correct": true
+    },
+    "val_miss_0025": {
+      "answer": "2009",
+      "correct": true
+    },
+    "val_miss_0029": {
+      "answer": "January 4, 1976",
+      "correct": true
+    },
+    "val_miss_0034": {
+      "answer": "Houston Colt .45s",
+      "correct": false
+    },
+    "val_miss_0039": {
+      "answer": "IWC",
+      "correct": false
+    },
+    "val_miss_0043": {
+      "answer": "NBC",
+      "correct": false
+    },
+    "val_miss_0049": {
+      "answer": "German",
+      "correct": false
+    },
+    "val_miss_0053": {
+      "answer": "Germany",
+      "correct": false
+    },
+    "val_miss_0057": {
+      "answer": "Ethiopian independence",
+      "correct": false
+    },
+    "val_miss_0061": {
+      "answer": "1997",
+      "correct": false
+    },
+    "val_miss_0065": {
+      "answer": "1838",
+      "correct": true
+    },
+    "val_miss_0071": {
+      "answer": "Wolfgang Amadeus Mozart",
+      "correct": false
+    },
+    "val_miss_0076": {
+      "answer": "1982",
+      "correct": true
+    },
+    "val_miss_0082": {
+      "answer": "John R. Leonetti",
+      "correct": true
+    },
+    "val_miss_0086": {
+      "answer": "Hi! Dharma!",
+      "correct": false
+    },
+    "val_miss_0090": {
+      "answer": "Trybesmen",
+      "correct": false
+    },
+    "val_miss_0094": {
+      "answer": "Liesl",
+      "correct": false
+    },
+    "val_miss_0098": {
+      "answer": "New Orleans Saints",
+      "correct": true
+    },
+    "val_miss_0102": {
+      "answer": "Biola University",
+      "correct": true
+    },
+    "val_miss_0106": {
+      "answer": "Hidesaburō Ueno",
+      "correct": true
+    },
+    "val_miss_0110": {
+      "answer": "Matías Almeyda",
+      "correct": true
+    },
+    "val_miss_0117": {
+      "answer": "1999",
+      "correct": true
+    },
+    "val_miss_0122": {
+      "answer": "The Longest Yard",
+      "correct": true
+    },
+    "val_miss_0128": {
+      "answer": "Joseph Ruttenberg",
+      "correct": false
+    },
+    "val_miss_0132": {
+      "answer": "He was chairman of the New York Stock Exchange.",
+      "correct": false
+    },
+    "val_miss_0136": {
+      "answer": "King Charles III",
+      "correct": false
+    },
+    "val_miss_0141": {
+      "answer": "Constance M. Burge",
+      "correct": true
+    },
+    "val_miss_0145": {
+      "answer": "McG",
+      "correct": true
+    },
+    "val_miss_0149": {
+      "answer": "Litchfield Penitentiary",
+      "correct": false
+    },
+    "val_miss_0155": {
+      "answer": "11",
+      "correct": true
+    },
+    "val_miss_0159": {
+      "answer": "Wendigo",
+      "correct": true
+    },
+    "val_miss_0165": {
+      "answer": "Parmenides",
+      "correct": false
+    },
+    "val_miss_0169": {
+      "answer": "The Capture of the Five Boroughs",
+      "correct": true
+    },
+    "val_miss_0173": {
+      "answer": "Runway",
+      "correct": true
+    },
+    "val_miss_0177": {
+      "answer": "Pope John X",
+      "correct": true
+    },
+    "val_miss_0182": {
+      "answer": "NBA Slam Dunk Contest",
+      "correct": true
+    },
+    "val_miss_0187": {
+      "answer": "Vijay Mallya",
+      "correct": true
+    },
+    "val_miss_0191": {
+      "answer": "August 26–30, 1914",
+      "correct": true
+    },
+    "val_miss_0197": {
+      "answer": "Manc",
+      "correct": false
+    },
+    "val_miss_0201": {
+      "answer": "17 years",
+      "correct": false
+    },
+    "val_miss_0205": {
+      "answer": "Firth of Forth",
+      "correct": false
+    },
+    "val_miss_0209": {
+      "answer": "Reza Parsa",
+      "correct": false
+    },
+    "val_miss_0213": {
+      "answer": "Elderships",
+      "correct": true
+    },
+    "val_miss_0217": {
+      "answer": "2005",
+      "correct": true
+    },
+    "val_miss_0222": {
+      "answer": "NESN (New England Sports Network)",
+      "correct": true
+    },
+    "val_miss_0226": {
+      "answer": "2016 Summer Olympics",
+      "correct": false
+    },
+    "val_miss_0230": {
+      "answer": "Sol Bamba",
+      "correct": true
+    },
+    "val_miss_0234": {
+      "answer": "Princess Jessica",
+      "correct": true
+    },
+    "val_miss_0239": {
+      "answer": "sarod",
+      "correct": true
+    },
+    "val_miss_0244": {
+      "answer": "over 500 million",
+      "correct": false
+    },
+    "val_miss_0251": {
+      "answer": "Smith Act",
+      "correct": true
+    },
+    "val_miss_0256": {
+      "answer": "Barton Town Old Boys",
+      "correct": false
+    },
+    "val_miss_0260": {
+      "answer": "Writer",
+      "correct": false
+    },
+    "val_miss_0264": {
+      "answer": "Mexican Constitution of 1824",
+      "correct": true
+    },
+    "val_miss_0276": {
+      "answer": "Alan Turing",
+      "correct": true
+    },
+    "val_miss_0282": {
+      "answer": "Qualcomm Stadium",
+      "correct": true
+    },
+    "val_miss_0286": {
+      "answer": "1872",
+      "correct": true
+    },
+    "val_miss_0290": {
+      "answer": "Mr. Moorhouse",
+      "correct": false
+    },
+    "val_miss_0295": {
+      "answer": "8th and 16th centuries",
+      "correct": true
+    },
+    "val_miss_0299": {
+      "answer": "Spotted hyena",
+      "correct": false
+    },
+    "val_miss_0304": {
+      "answer": "Vietnam War",
+      "correct": true
+    },
+    "val_miss_0308": {
+      "answer": "June 24, 1935",
+      "correct": true
+    },
+    "val_miss_0312": {
+      "answer": "June 3, 1967",
+      "correct": false
+    },
+    "val_miss_0317": {
+      "answer": "Denver, Colorado, USA",
+      "correct": false
+    },
+    "val_miss_0321": {
+      "answer": "Delphine Software International",
+      "correct": true
+    },
+    "val_miss_0325": {
+      "answer": "Luxembourg City",
+      "correct": false
+    },
+    "val_miss_0330": {
+      "answer": "Alzheimer's disease",
+      "correct": false
+    },
+    "val_miss_0336": {
+      "answer": "145,000",
+      "correct": false
+    },
+    "val_miss_0341": {
+      "answer": "March and April 2003",
+      "correct": false
+    },
+    "val_miss_0346": {
+      "answer": "Bothwell Castle",
+      "correct": false
+    },
+    "val_miss_0351": {
+      "answer": "Detroit Lions and Los Angeles Rams",
+      "correct": true
+    },
+    "val_miss_0355": {
+      "answer": "Oklahoma Sooners",
+      "correct": true
+    },
+    "val_miss_0359": {
+      "answer": "James Bond",
+      "correct": true
+    },
+    "val_miss_0364": {
+      "answer": "Angus T. Jones",
+      "correct": true
+    },
+    "val_miss_0369": {
+      "answer": "Illinois",
+      "correct": true
+    },
+    "val_miss_0374": {
+      "answer": "Preston County",
+      "correct": true
+    },
+    "val_miss_0379": {
+      "answer": "1,522 miles",
+      "correct": false
+    },
+    "val_miss_0384": {
+      "answer": "Dino Buzzati",
+      "correct": true
+    },
+    "val_miss_0389": {
+      "answer": "Stan Brakhage",
+      "correct": false
+    },
+    "val_miss_0393": {
+      "answer": "hard rock",
+      "correct": true
+    },
+    "val_miss_0397": {
+      "answer": "Walt Disney Pictures",
+      "correct": true
+    },
+    "val_miss_0402": {
+      "answer": "human sexual response",
+      "correct": true
+    },
+    "val_miss_0406": {
+      "answer": "Chloe Agnew",
+      "correct": false
+    },
+    "val_miss_0410": {
+      "answer": "Paris",
+      "correct": true
+    },
+    "val_miss_0414": {
+      "answer": "1998",
+      "correct": true
+    },
+    "val_miss_0418": {
+      "answer": "1916",
+      "correct": true
+    },
+    "val_miss_0423": {
+      "answer": "NCAA Division I FCS",
+      "correct": true
+    },
+    "val_miss_0427": {
+      "answer": "34",
+      "correct": false
+    },
+    "val_miss_0431": {
+      "answer": "Martin Scorsese",
+      "correct": false
+    },
+    "val_miss_0435": {
+      "answer": "Pensacola",
+      "correct": false
+    },
+    "val_miss_0441": {
+      "answer": "Flying Buffalo",
+      "correct": true
+    },
+    "val_miss_0446": {
+      "answer": "54,890",
+      "correct": false
+    },
+    "val_miss_0451": {
+      "answer": "1987",
+      "correct": true
+    },
+    "val_miss_0456": {
+      "answer": "Joseph L. Mankiewicz",
+      "correct": true
+    },
+    "val_miss_0460": {
+      "answer": "The Bachelor by Robert Neumann",
+      "correct": false
+    },
+    "val_conf_0002": {
+      "answer": "Cashin' In",
+      "correct": true
+    },
+    "val_conf_0006": {
+      "answer": "Edmonton, Alberta, Canada",
+      "correct": true
+    },
+    "val_conf_0010": {
+      "answer": "Hopeless Records",
+      "correct": true
+    },
+    "val_conf_0014": {
+      "answer": "England",
+      "correct": true
+    },
+    "val_conf_0018": {
+      "answer": "40 Acres and a Mule Filmworks",
+      "correct": true
+    },
+    "val_conf_0022": {
+      "answer": "1997",
+      "correct": true
+    },
+    "val_conf_0026": {
+      "answer": "Virgin Radio UK",
+      "correct": false
+    },
+    "val_conf_0031": {
+      "answer": "Nicola",
+      "correct": false
+    },
+    "val_conf_0035": {
+      "answer": "fortis",
+      "correct": false
+    },
+    "val_conf_0040": {
+      "answer": "Denmark, Norway, Sweden",
+      "correct": true
+    },
+    "val_conf_0044": {
+      "answer": "Cradle of Filth",
+      "correct": true
+    },
+    "val_conf_0050": {
+      "answer": "Europe",
+      "correct": true
+    },
+    "val_conf_0054": {
+      "answer": "2,431",
+      "correct": false
+    },
+    "val_conf_0058": {
+      "answer": "Gus Van Sant",
+      "correct": true
+    },
+    "val_conf_0062": {
+      "answer": "Houston County",
+      "correct": false
+    },
+    "val_conf_0068": {
+      "answer": "Directing the 90th Academy Awards (The Oscars)",
+      "correct": false
+    },
+    "val_conf_0072": {
+      "answer": "Leonberger",
+      "correct": true
+    },
+    "val_conf_0079": {
+      "answer": "Algirdas, 1345–1377",
+      "correct": false
+    },
+    "val_conf_0083": {
+      "answer": "Kittie",
+      "correct": true
+    },
+    "val_conf_0087": {
+      "answer": "April 24, 1934",
+      "correct": true
+    },
+    "val_conf_0091": {
+      "answer": "15 December 2009",
+      "correct": false
+    },
+    "val_conf_0095": {
+      "answer": "January 11, 1755",
+      "correct": true
+    },
+    "val_conf_0099": {
+      "answer": "March 9, 1961",
+      "correct": true
+    },
+    "val_conf_0103": {
+      "answer": "Marktown",
+      "correct": true
+    },
+    "val_conf_0107": {
+      "answer": "April 20, 1946",
+      "correct": true
+    },
+    "val_conf_0113": {
+      "answer": "Ellie Kemper",
+      "correct": true
+    },
+    "val_conf_0118": {
+      "answer": "Tennessee",
+      "correct": true
+    },
+    "val_conf_0123": {
+      "answer": "Arthur Miller",
+      "correct": true
+    },
+    "val_conf_0129": {
+      "answer": "Bowland Forest",
+      "correct": false
+    },
+    "val_conf_0133": {
+      "answer": "more than 230",
+      "correct": true
+    },
+    "val_conf_0137": {
+      "answer": "Apalachee",
+      "correct": true
+    },
+    "val_conf_0142": {
+      "answer": "9 February 1890",
+      "correct": false
+    },
+    "val_conf_0146": {
+      "answer": "The Late Late Show",
+      "correct": true
+    },
+    "val_conf_0151": {
+      "answer": "Micky Dolenz",
+      "correct": false
+    },
+    "val_conf_0156": {
+      "answer": "Mawson Lakes",
+      "correct": true
+    },
+    "val_conf_0160": {
+      "answer": "Dana Fox",
+      "correct": true
+    },
+    "val_conf_0166": {
+      "answer": "Boxing",
+      "correct": false
+    },
+    "val_conf_0170": {
+      "answer": "Italo Balbo",
+      "correct": false
+    },
+    "val_conf_0174": {
+      "answer": "Singer-songwriters and musicians",
+      "correct": true
+    },
+    "val_conf_0178": {
+      "answer": "2019",
+      "correct": false
+    },
+    "val_conf_0183": {
+      "answer": "Canadian",
+      "correct": true
+    },
+    "val_conf_0188": {
+      "answer": "272",
+      "correct": false
+    },
+    "val_conf_0192": {
+      "answer": "North Carolina",
+      "correct": false
+    },
+    "val_conf_0198": {
+      "answer": "Duke of Lancaster",
+      "correct": true
+    },
+    "val_conf_0202": {
+      "answer": "Lord Gort",
+      "correct": true
+    },
+    "val_conf_0206": {
+      "answer": "Woody Allen",
+      "correct": true
+    },
+    "val_conf_0210": {
+      "answer": "Mental illness (a suicide attempt and asylum confinement)",
+      "correct": false
+    },
+    "val_conf_0214": {
+      "answer": "Portland, Oregon",
+      "correct": false
+    },
+    "val_conf_0219": {
+      "answer": "Bassendean",
+      "correct": true
+    },
+    "val_conf_0223": {
+      "answer": "Rome",
+      "correct": false
+    },
+    "val_conf_0227": {
+      "answer": "4",
+      "correct": true
+    },
+    "val_conf_0231": {
+      "answer": "Shards",
+      "correct": false
+    },
+    "val_conf_0235": {
+      "answer": "Their lyrics are sexually explicit, often dealing with gay sex and BDSM.",
+      "correct": false
+    },
+    "val_conf_0240": {
+      "answer": "John Wetton",
+      "correct": false
+    },
+    "val_conf_0246": {
+      "answer": "3 years",
+      "correct": false
+    },
+    "val_conf_0252": {
+      "answer": "United States",
+      "correct": false
+    },
+    "val_conf_0257": {
+      "answer": "Bathurst",
+      "correct": true
+    },
+    "val_conf_0261": {
+      "answer": "film",
+      "correct": true
+    },
+    "val_conf_0265": {
+      "answer": "Silvia Pinal",
+      "correct": false
+    },
+    "val_conf_0277": {
+      "answer": "Roman Polanski",
+      "correct": false
+    },
+    "val_conf_0283": {
+      "answer": "hydrogenated fats",
+      "correct": true
+    },
+    "val_conf_0287": {
+      "answer": "Operation Iceberg",
+      "correct": true
+    },
+    "val_conf_0291": {
+      "answer": "1941",
+      "correct": true
+    },
+    "val_conf_0296": {
+      "answer": "Suzan-Lori Parks won the Pulitzer Prize for Drama.",
+      "correct": true
+    },
+    "val_conf_0301": {
+      "answer": "30",
+      "correct": true
+    },
+    "val_conf_0305": {
+      "answer": "arts, culture, and politics",
+      "correct": false
+    },
+    "val_conf_0309": {
+      "answer": "William Cavendish, 7th Duke of Devonshire",
+      "correct": true
+    },
+    "val_conf_0314": {
+      "answer": "XII",
+      "correct": true
+    },
+    "val_conf_0318": {
+      "answer": "Leeds United",
+      "correct": false
+    },
+    "val_conf_0322": {
+      "answer": "Syracuse",
+      "correct": true
+    },
+    "val_conf_0327": {
+      "answer": "Oxford University",
+      "correct": true
+    },
+    "val_conf_0331": {
+      "answer": "Cheshire County, New Hampshire",
+      "correct": true
+    },
+    "val_conf_0337": {
+      "answer": "Archduke Franz Ferdinand",
+      "correct": false
+    },
+    "val_conf_0342": {
+      "answer": "Albany, New York",
+      "correct": false
+    },
+    "val_conf_0348": {
+      "answer": "Animation",
+      "correct": true
+    },
+    "val_conf_0352": {
+      "answer": "Rafael dos Anjos",
+      "correct": true
+    },
+    "val_conf_0356": {
+      "answer": "Columbus",
+      "correct": true
+    },
+    "val_conf_0361": {
+      "answer": "Australian",
+      "correct": true
+    },
+    "val_conf_0365": {
+      "answer": "Virginia",
+      "correct": true
+    },
+    "val_conf_0371": {
+      "answer": "Oliver Reed",
+      "correct": true
+    },
+    "val_conf_0375": {
+      "answer": "Darlene Love",
+      "correct": false
+    },
+    "val_conf_0381": {
+      "answer": "Richard Street",
+      "correct": true
+    },
+    "val_conf_0386": {
+      "answer": "1946",
+      "correct": false
+    },
+    "val_conf_0390": {
+      "answer": "Jarome Iginla",
+      "correct": true
+    },
+    "val_conf_0394": {
+      "answer": "Anne Hathaway",
+      "correct": false
+    },
+    "val_conf_0399": {
+      "answer": "Attorney General",
+      "correct": true
+    },
+    "val_conf_0403": {
+      "answer": "Fiat S.p.A.",
+      "correct": false
+    },
+    "val_conf_0407": {
+      "answer": "Atlanta, Georgia",
+      "correct": false
+    },
+    "val_conf_0411": {
+      "answer": "2011",
+      "correct": true
+    },
+    "val_conf_0415": {
+      "answer": "Graham Hill",
+      "correct": true
+    },
+    "val_conf_0419": {
+      "answer": "Devin Booker",
+      "correct": false
+    },
+    "val_conf_0424": {
+      "answer": "chess",
+      "correct": false
+    },
+    "val_conf_0428": {
+      "answer": "London",
+      "correct": true
+    },
+    "val_conf_0432": {
+      "answer": "Deputy Führer",
+      "correct": true
+    },
+    "val_conf_0437": {
+      "answer": "Cocktails",
+      "correct": true
+    },
+    "val_conf_0442": {
+      "answer": "Patriots Day",
+      "correct": true
+    },
+    "val_conf_0448": {
+      "answer": "Three centuries",
+      "correct": true
+    },
+    "val_conf_0452": {
+      "answer": "Play therapy",
+      "correct": false
+    },
+    "val_conf_0457": {
+      "answer": "8,648",
+      "correct": true
+    },
+    "val_conf_0461": {
+      "answer": "Sissy Spacek",
+      "correct": true
+    },
+    "val_unan_0003": {
+      "answer": "Bangkok",
+      "correct": true
+    },
+    "val_unan_0007": {
+      "answer": "District of Columbia",
+      "correct": true
+    },
+    "val_unan_0011": {
+      "answer": "Preacher",
+      "correct": false
+    },
+    "val_unan_0015": {
+      "answer": "Golden Globe Award",
+      "correct": false
+    },
+    "val_unan_0019": {
+      "answer": "Régionale 1",
+      "correct": false
+    },
+    "val_unan_0023": {
+      "answer": "deaf ice hockey team",
+      "correct": false
+    },
+    "val_unan_0027": {
+      "answer": "August 16, 1929",
+      "correct": false
+    },
+    "val_unan_0032": {
+      "answer": "1993",
+      "correct": true
+    },
+    "val_unan_0036": {
+      "answer": "Brady Haran",
+      "correct": true
+    },
+    "val_unan_0041": {
+      "answer": "15 November 1919",
+      "correct": true
+    },
+    "val_unan_0045": {
+      "answer": "Traumnovelle (Dream Story) by Arthur Schnitzler",
+      "correct": true
+    },
+    "val_unan_0051": {
+      "answer": "Barnoldswick",
+      "correct": true
+    },
+    "val_unan_0055": {
+      "answer": "1978",
+      "correct": true
+    },
+    "val_unan_0059": {
+      "answer": "Pakistan",
+      "correct": true
+    },
+    "val_unan_0063": {
+      "answer": "Bhimapala",
+      "correct": false
+    },
+    "val_unan_0069": {
+      "answer": "Sleeping Beauty",
+      "correct": true
+    },
+    "val_unan_0073": {
+      "answer": "Merovech",
+      "correct": true
+    },
+    "val_unan_0080": {
+      "answer": "Kind Hearts and Coronets",
+      "correct": true
+    },
+    "val_unan_0084": {
+      "answer": "2002",
+      "correct": true
+    },
+    "val_unan_0088": {
+      "answer": "Karachi",
+      "correct": true
+    },
+    "val_unan_0092": {
+      "answer": "musician",
+      "correct": true
+    },
+    "val_unan_0096": {
+      "answer": "Terry Malloy",
+      "correct": true
+    },
+    "val_unan_0100": {
+      "answer": "Christianity",
+      "correct": false
+    },
+    "val_unan_0104": {
+      "answer": "Nikita Khrushchev and Enver Hoxha",
+      "correct": true
+    },
+    "val_unan_0108": {
+      "answer": "70,000 years ago",
+      "correct": false
+    },
+    "val_unan_0114": {
+      "answer": "Leona Lewis",
+      "correct": true
+    },
+    "val_unan_0119": {
+      "answer": "the 2011 AFC Asian Cup final",
+      "correct": true
+    },
+    "val_unan_0124": {
+      "answer": "draugr",
+      "correct": false
+    },
+    "val_unan_0130": {
+      "answer": "15 November 1967",
+      "correct": true
+    },
+    "val_unan_0134": {
+      "answer": "Oklahoma Sooners men's basketball",
+      "correct": true
+    },
+    "val_unan_0138": {
+      "answer": "Baylor Bears",
+      "correct": true
+    },
+    "val_unan_0143": {
+      "answer": "More Please",
+      "correct": false
+    },
+    "val_unan_0147": {
+      "answer": "Kamal Haasan",
+      "correct": true
+    },
+    "val_unan_0152": {
+      "answer": "Documentary",
+      "correct": true
+    },
+    "val_unan_0157": {
+      "answer": "The Terminator",
+      "correct": true
+    },
+    "val_unan_0161": {
+      "answer": "Woolsthorpe-by-Colsterworth",
+      "correct": true
+    },
+    "val_unan_0167": {
+      "answer": "Lily Hampton",
+      "correct": true
+    },
+    "val_unan_0171": {
+      "answer": "6teen",
+      "correct": true
+    },
+    "val_unan_0175": {
+      "answer": "Both are American sportscasters.",
+      "correct": true
+    },
+    "val_unan_0179": {
+      "answer": "an emphasis on the third beat",
+      "correct": false
+    },
+    "val_unan_0184": {
+      "answer": "Juliet",
+      "correct": false
+    },
+    "val_unan_0189": {
+      "answer": "Hans Wegner",
+      "correct": true
+    },
+    "val_unan_0193": {
+      "answer": "Walldorf",
+      "correct": true
+    },
+    "val_unan_0199": {
+      "answer": "R2: Doctoral Universities – High research activity",
+      "correct": false
+    },
+    "val_unan_0203": {
+      "answer": "9",
+      "correct": false
+    },
+    "val_unan_0207": {
+      "answer": "Ronald Reagan",
+      "correct": false
+    },
+    "val_unan_0211": {
+      "answer": "Chief of Operations Staff of the Oberkommando der Wehrmacht (OKW)",
+      "correct": false
+    },
+    "val_unan_0215": {
+      "answer": "Pigman's Bar-B-Que",
+      "correct": true
+    },
+    "val_unan_0220": {
+      "answer": "Denise Richards",
+      "correct": false
+    },
+    "val_unan_0224": {
+      "answer": "2007",
+      "correct": true
+    },
+    "val_unan_0228": {
+      "answer": "Ann",
+      "correct": false
+    },
+    "val_unan_0232": {
+      "answer": "Southwest corner",
+      "correct": false
+    },
+    "val_unan_0236": {
+      "answer": "Molly Hatchet",
+      "correct": true
+    },
+    "val_unan_0241": {
+      "answer": "1944",
+      "correct": false
+    },
+    "val_unan_0247": {
+      "answer": "Merv",
+      "correct": false
+    },
+    "val_unan_0253": {
+      "answer": "1955",
+      "correct": true
+    },
+    "val_unan_0258": {
+      "answer": "10.3",
+      "correct": true
+    },
+    "val_unan_0262": {
+      "answer": "Monson",
+      "correct": true
+    },
+    "val_unan_0266": {
+      "answer": "Daniel Patrick Moynihan",
+      "correct": true
+    },
+    "val_unan_0278": {
+      "answer": "A media platform for the 99 percent",
+      "correct": false
+    },
+    "val_unan_0284": {
+      "answer": "Super Bowl XXIX",
+      "correct": true
+    },
+    "val_unan_0288": {
+      "answer": "1929",
+      "correct": false
+    },
+    "val_unan_0292": {
+      "answer": "NFC",
+      "correct": true
+    },
+    "val_unan_0297": {
+      "answer": "15 August 1843",
+      "correct": true
+    },
+    "val_unan_0302": {
+      "answer": "Jesus",
+      "correct": true
+    },
+    "val_unan_0306": {
+      "answer": "Ibn Arabi",
+      "correct": false
+    },
+    "val_unan_0310": {
+      "answer": "To secure the northern Pacific flank and divert U.S. forces from Midway.",
+      "correct": false
+    },
+    "val_unan_0315": {
+      "answer": "Johannes Vermeer",
+      "correct": true
+    },
+    "val_unan_0319": {
+      "answer": "political party",
+      "correct": true
+    },
+    "val_unan_0323": {
+      "answer": "2017",
+      "correct": true
+    },
+    "val_unan_0328": {
+      "answer": "Chicago, Illinois",
+      "correct": false
+    },
+    "val_unan_0332": {
+      "answer": "Doc Hollywood",
+      "correct": true
+    },
+    "val_unan_0338": {
+      "answer": "Otto Frisch",
+      "correct": true
+    },
+    "val_unan_0343": {
+      "answer": "concealed ovulation",
+      "correct": true
+    },
+    "val_unan_0349": {
+      "answer": "Asset management",
+      "correct": false
+    },
+    "val_unan_0353": {
+      "answer": "Manhattan Project",
+      "correct": true
+    },
+    "val_unan_0357": {
+      "answer": "Ricky Skaggs",
+      "correct": false
+    },
+    "val_unan_0362": {
+      "answer": "The Godfather Part II",
+      "correct": false
+    },
+    "val_unan_0366": {
+      "answer": "death metal music",
+      "correct": true
+    },
+    "val_unan_0372": {
+      "answer": "Naga Chaitanya",
+      "correct": true
+    },
+    "val_unan_0376": {
+      "answer": "Honolulu County, Hawaii",
+      "correct": true
+    },
+    "val_unan_0382": {
+      "answer": "Liberty and property",
+      "correct": false
+    },
+    "val_unan_0387": {
+      "answer": "2,001 feet",
+      "correct": false
+    },
+    "val_unan_0391": {
+      "answer": "1995",
+      "correct": true
+    },
+    "val_unan_0395": {
+      "answer": "Air Chief Marshal Sir Hugh Dowding",
+      "correct": true
+    },
+    "val_unan_0400": {
+      "answer": "People with dementia",
+      "correct": false
+    },
+    "val_unan_0404": {
+      "answer": "Radziwill's",
+      "correct": false
+    },
+    "val_unan_0408": {
+      "answer": "James Lapine",
+      "correct": true
+    },
+    "val_unan_0412": {
+      "answer": "Guarding livestock and property",
+      "correct": false
+    },
+    "val_unan_0416": {
+      "answer": "Istanbul",
+      "correct": true
+    },
+    "val_unan_0420": {
+      "answer": "Carnatic music",
+      "correct": true
+    },
+    "val_unan_0425": {
+      "answer": "Northumbrian",
+      "correct": true
+    },
+    "val_unan_0429": {
+      "answer": "Atlanta, Georgia",
+      "correct": false
+    },
+    "val_unan_0433": {
+      "answer": "Helen Hunt",
+      "correct": true
+    },
+    "val_unan_0439": {
+      "answer": "The Big Bang Theory",
+      "correct": false
+    },
+    "val_unan_0443": {
+      "answer": "Oryzomyini",
+      "correct": true
+    },
+    "val_unan_0449": {
+      "answer": "Both are documentary films.",
+      "correct": true
+    },
+    "val_unan_0454": {
+      "answer": "Venstre",
+      "correct": true
+    },
+    "val_unan_0458": {
+      "answer": "Limbo",
+      "correct": true
+    },
+    "val_unan_0462": {
+      "answer": "David Jolly",
+      "correct": true
+    }
+  },
+  "qwen/qwen3.8-flash": {
+    "val_suff_0000": {
+      "answer": "Yes",
+      "correct": false
+    },
+    "val_suff_0004": {
+      "answer": "Love Letter",
+      "correct": true
+    },
+    "val_suff_0008": {
+      "answer": "Switzerland",
+      "correct": false
+    },
+    "val_suff_0012": {
+      "answer": "Hindi films",
+      "correct": false
+    },
+    "val_suff_0016": {
+      "answer": "Dick Posthumus",
+      "correct": false
+    },
+    "val_suff_0020": {
+      "answer": "May Revolution",
+      "correct": true
+    },
+    "val_suff_0024": {
+      "answer": "",
+      "correct": false
+    },
+    "val_suff_0028": {
+      "answer": "Berlin",
+      "correct": true
+    },
+    "val_suff_0033": {
+      "answer": "film director",
+      "correct": true
+    },
+    "val_suff_0037": {
+      "answer": "Gary Oldman",
+      "correct": true
+    },
+    "val_suff_0042": {
+      "answer": "Extreme metal",
+      "correct": true
+    },
+    "val_suff_0046": {
+      "answer": "1993–2001",
+      "correct": true
+    },
+    "val_suff_0052": {
+      "answer": "1999",
+      "correct": true
+    },
+    "val_suff_0056": {
+      "answer": "Oscar Pistorius",
+      "correct": true
+    },
+    "val_suff_0060": {
+      "answer": "Graham Greene",
+      "correct": false
+    },
+    "val_suff_0064": {
+      "answer": "Normandy and the Battle of the Bulge",
+      "correct": false
+    },
+    "val_suff_0070": {
+      "answer": "Teddie Riley",
+      "correct": false
+    },
+    "val_suff_0074": {
+      "answer": "Elvis' Christmas Album",
+      "correct": true
+    },
+    "val_suff_0081": {
+      "answer": "Sleaford and North Hykeham by-election",
+      "correct": true
+    },
+    "val_suff_0085": {
+      "answer": "Denmark men's national ice hockey team",
+      "correct": true
+    },
+    "val_suff_0089": {
+      "answer": "1996",
+      "correct": true
+    },
+    "val_suff_0093": {
+      "answer": "Philip K. Dick",
+      "correct": true
+    },
+    "val_suff_0097": {
+      "answer": "December 31, 2014",
+      "correct": true
+    },
+    "val_suff_0101": {
+      "answer": "Ralph Stanley",
+      "correct": true
+    },
+    "val_suff_0105": {
+      "answer": "The Secret Garden",
+      "correct": false
+    },
+    "val_suff_0109": {
+      "answer": "Amon Göth",
+      "correct": true
+    },
+    "val_suff_0115": {
+      "answer": "George Harrison",
+      "correct": false
+    },
+    "val_suff_0120": {
+      "answer": "New York Shakespeare Festival",
+      "correct": true
+    },
+    "val_suff_0125": {
+      "answer": "British",
+      "correct": true
+    },
+    "val_suff_0131": {
+      "answer": "Eastern College Athletic Conference",
+      "correct": false
+    },
+    "val_suff_0135": {
+      "answer": "Joseph Keppler",
+      "correct": false
+    },
+    "val_suff_0139": {
+      "answer": "Gavin Newsom",
+      "correct": false
+    },
+    "val_suff_0144": {
+      "answer": "University of Southern California",
+      "correct": true
+    },
+    "val_suff_0148": {
+      "answer": "JFK",
+      "correct": false
+    },
+    "val_suff_0153": {
+      "answer": "Norse mythology",
+      "correct": false
+    },
+    "val_suff_0158": {
+      "answer": "Military",
+      "correct": true
+    },
+    "val_suff_0162": {
+      "answer": "French Canadians",
+      "correct": true
+    },
+    "val_suff_0168": {
+      "answer": "Ben Gazzara",
+      "correct": false
+    },
+    "val_suff_0172": {
+      "answer": "Stuart Price",
+      "correct": true
+    },
+    "val_suff_0176": {
+      "answer": "1947",
+      "correct": true
+    },
+    "val_suff_0180": {
+      "answer": "Jon Walker",
+      "correct": false
+    },
+    "val_suff_0185": {
+      "answer": "Grigori Aleksandrov",
+      "correct": true
+    },
+    "val_suff_0190": {
+      "answer": "Bardot",
+      "correct": true
+    },
+    "val_suff_0194": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_suff_0200": {
+      "answer": "IK Start",
+      "correct": true
+    },
+    "val_suff_0204": {
+      "answer": "Nashville",
+      "correct": false
+    },
+    "val_suff_0208": {
+      "answer": "Comedy-drama",
+      "correct": false
+    },
+    "val_suff_0212": {
+      "answer": "Dongducheon",
+      "correct": false
+    },
+    "val_suff_0216": {
+      "answer": "35 acres",
+      "correct": false
+    },
+    "val_suff_0221": {
+      "answer": "Marquis de Lafayette",
+      "correct": true
+    },
+    "val_suff_0225": {
+      "answer": "Alice's Adventures in Wonderland",
+      "correct": true
+    },
+    "val_suff_0229": {
+      "answer": "Oedipus Rex",
+      "correct": true
+    },
+    "val_suff_0233": {
+      "answer": "Mark Helfrich",
+      "correct": true
+    },
+    "val_suff_0237": {
+      "answer": "Sufism",
+      "correct": true
+    },
+    "val_suff_0242": {
+      "answer": "Rumi",
+      "correct": true
+    },
+    "val_suff_0248": {
+      "answer": "Battle of the Bulge",
+      "correct": true
+    },
+    "val_suff_0254": {
+      "answer": "Bisexuality",
+      "correct": true
+    },
+    "val_suff_0259": {
+      "answer": "Native American",
+      "correct": false
+    },
+    "val_suff_0263": {
+      "answer": "Value investing",
+      "correct": false
+    },
+    "val_suff_0267": {
+      "answer": "Son",
+      "correct": true
+    },
+    "val_suff_0279": {
+      "answer": "University of Chicago",
+      "correct": false
+    },
+    "val_suff_0285": {
+      "answer": "The Fault in Our Stars",
+      "correct": true
+    },
+    "val_suff_0289": {
+      "answer": "United States",
+      "correct": true
+    },
+    "val_suff_0293": {
+      "answer": "86,200",
+      "correct": false
+    },
+    "val_suff_0298": {
+      "answer": "Nicholas Kristof",
+      "correct": true
+    },
+    "val_suff_0303": {
+      "answer": "10",
+      "correct": true
+    },
+    "val_suff_0307": {
+      "answer": "John Garabedian",
+      "correct": true
+    },
+    "val_suff_0311": {
+      "answer": "Carson City",
+      "correct": true
+    },
+    "val_suff_0316": {
+      "answer": "Mickey Gilley",
+      "correct": true
+    },
+    "val_suff_0320": {
+      "answer": "Duval County",
+      "correct": true
+    },
+    "val_suff_0324": {
+      "answer": "MUD",
+      "correct": false
+    },
+    "val_suff_0329": {
+      "answer": "R-Point",
+      "correct": true
+    },
+    "val_suff_0333": {
+      "answer": "Pim Fortuyn",
+      "correct": true
+    },
+    "val_suff_0339": {
+      "answer": "Plasma",
+      "correct": true
+    },
+    "val_suff_0344": {
+      "answer": "Lionel Hollins",
+      "correct": true
+    },
+    "val_suff_0350": {
+      "answer": "Homeland",
+      "correct": true
+    },
+    "val_suff_0354": {
+      "answer": "December 25, 1941",
+      "correct": true
+    },
+    "val_suff_0358": {
+      "answer": "18 December 2004",
+      "correct": false
+    },
+    "val_suff_0363": {
+      "answer": "Vossi Bop",
+      "correct": false
+    },
+    "val_suff_0367": {
+      "answer": "Château d'Hérouville",
+      "correct": true
+    },
+    "val_suff_0373": {
+      "answer": "Gael García Bernal",
+      "correct": false
+    },
+    "val_suff_0377": {
+      "answer": "Big 12",
+      "correct": true
+    },
+    "val_suff_0383": {
+      "answer": "Heavy cavalry",
+      "correct": false
+    },
+    "val_suff_0388": {
+      "answer": "Dunkirk",
+      "correct": false
+    },
+    "val_suff_0392": {
+      "answer": "13",
+      "correct": true
+    },
+    "val_suff_0396": {
+      "answer": "2006",
+      "correct": false
+    },
+    "val_suff_0401": {
+      "answer": "David Attenborough",
+      "correct": false
+    },
+    "val_suff_0405": {
+      "answer": "December 17, 1974",
+      "correct": true
+    },
+    "val_suff_0409": {
+      "answer": "Italian",
+      "correct": false
+    },
+    "val_suff_0413": {
+      "answer": "Karl Marx",
+      "correct": false
+    },
+    "val_suff_0417": {
+      "answer": "Aeroflot",
+      "correct": true
+    },
+    "val_suff_0421": {
+      "answer": "Rhode Island School of Design",
+      "correct": true
+    },
+    "val_suff_0426": {
+      "answer": "Claymation",
+      "correct": false
+    },
+    "val_suff_0430": {
+      "answer": "Patricia Arquette",
+      "correct": true
+    },
+    "val_suff_0434": {
+      "answer": "Matt Costa",
+      "correct": false
+    },
+    "val_suff_0440": {
+      "answer": "Sky Sports F1",
+      "correct": false
+    },
+    "val_suff_0444": {
+      "answer": "56,579",
+      "correct": false
+    },
+    "val_suff_0450": {
+      "answer": "Francine Segan",
+      "correct": false
+    },
+    "val_suff_0455": {
+      "answer": "Esperanza Spalding",
+      "correct": true
+    },
+    "val_suff_0459": {
+      "answer": "Brenton Thwaites",
+      "correct": true
+    },
+    "val_miss_0001": {
+      "answer": "Amandla Stenberg",
+      "correct": false
+    },
+    "val_miss_0005": {
+      "answer": "Adrenal cortex",
+      "correct": false
+    },
+    "val_miss_0009": {
+      "answer": "Kangpenqing",
+      "correct": true
+    },
+    "val_miss_0013": {
+      "answer": "Collins",
+      "correct": true
+    },
+    "val_miss_0017": {
+      "answer": "Saloon",
+      "correct": false
+    },
+    "val_miss_0021": {
+      "answer": "Distinguished Service Cross",
+      "correct": true
+    },
+    "val_miss_0025": {
+      "answer": "1984",
+      "correct": false
+    },
+    "val_miss_0029": {
+      "answer": "November 18, 1969",
+      "correct": false
+    },
+    "val_miss_0034": {
+      "answer": "Indianapolis Hoosiers",
+      "correct": false
+    },
+    "val_miss_0039": {
+      "answer": "IWC",
+      "correct": false
+    },
+    "val_miss_0043": {
+      "answer": "NBC",
+      "correct": false
+    },
+    "val_miss_0049": {
+      "answer": "German",
+      "correct": false
+    },
+    "val_miss_0053": {
+      "answer": "Germany",
+      "correct": false
+    },
+    "val_miss_0057": {
+      "answer": "Independence",
+      "correct": false
+    },
+    "val_miss_0061": {
+      "answer": "1989",
+      "correct": false
+    },
+    "val_miss_0065": {
+      "answer": "1838",
+      "correct": true
+    },
+    "val_miss_0071": {
+      "answer": "Wolfgang Amadeus Mozart",
+      "correct": false
+    },
+    "val_miss_0076": {
+      "answer": "1982",
+      "correct": true
+    },
+    "val_miss_0082": {
+      "answer": "Trey Edward Shults",
+      "correct": false
+    },
+    "val_miss_0086": {
+      "answer": "The Pirates",
+      "correct": false
+    },
+    "val_miss_0090": {
+      "answer": "Rude Boys",
+      "correct": false
+    },
+    "val_miss_0094": {
+      "answer": "Liesl",
+      "correct": false
+    },
+    "val_miss_0098": {
+      "answer": "New Orleans Saints",
+      "correct": true
+    },
+    "val_miss_0102": {
+      "answer": "Biola University",
+      "correct": true
+    },
+    "val_miss_0106": {
+      "answer": "Hidesaburō Ueno",
+      "correct": true
+    },
+    "val_miss_0110": {
+      "answer": "Matías Almeyda",
+      "correct": true
+    },
+    "val_miss_0117": {
+      "answer": "2000",
+      "correct": false
+    },
+    "val_miss_0122": {
+      "answer": "The Godfather Part II",
+      "correct": false
+    },
+    "val_miss_0128": {
+      "answer": "Joseph Ruttenberg",
+      "correct": false
+    },
+    "val_miss_0132": {
+      "answer": "Director",
+      "correct": false
+    },
+    "val_miss_0136": {
+      "answer": "King Charles III",
+      "correct": false
+    },
+    "val_miss_0141": {
+      "answer": "Aaron Spelling",
+      "correct": false
+    },
+    "val_miss_0145": {
+      "answer": "McG",
+      "correct": true
+    },
+    "val_miss_0149": {
+      "answer": "Litchfield Penitentiary",
+      "correct": false
+    },
+    "val_miss_0155": {
+      "answer": "4",
+      "correct": false
+    },
+    "val_miss_0159": {
+      "answer": "Ghost",
+      "correct": false
+    },
+    "val_miss_0165": {
+      "answer": "Lucretius",
+      "correct": false
+    },
+    "val_miss_0169": {
+      "answer": "The Capture of the Five Boroughs",
+      "correct": true
+    },
+    "val_miss_0173": {
+      "answer": "Runway",
+      "correct": true
+    },
+    "val_miss_0177": {
+      "answer": "Theophylact",
+      "correct": false
+    },
+    "val_miss_0182": {
+      "answer": "National Geographic Bee",
+      "correct": false
+    },
+    "val_miss_0187": {
+      "answer": "Kishane Shiparela",
+      "correct": false
+    },
+    "val_miss_0191": {
+      "answer": "August 1914",
+      "correct": true
+    },
+    "val_miss_0197": {
+      "answer": "Manc",
+      "correct": false
+    },
+    "val_miss_0201": {
+      "answer": "17 years",
+      "correct": false
+    },
+    "val_miss_0205": {
+      "answer": "Firth of Forth",
+      "correct": false
+    },
+    "val_miss_0209": {
+      "answer": "Reza Parsa",
+      "correct": false
+    },
+    "val_miss_0213": {
+      "answer": "Villages",
+      "correct": false
+    },
+    "val_miss_0217": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_miss_0222": {
+      "answer": "AT&T SportsNet Pittsburgh",
+      "correct": false
+    },
+    "val_miss_0226": {
+      "answer": "2012 Summer Olympics",
+      "correct": false
+    },
+    "val_miss_0230": {
+      "answer": "Sol Bamba",
+      "correct": true
+    },
+    "val_miss_0234": {
+      "answer": "Queen of Hearts",
+      "correct": false
+    },
+    "val_miss_0239": {
+      "answer": "Sarod",
+      "correct": true
+    },
+    "val_miss_0244": {
+      "answer": "500 million",
+      "correct": false
+    },
+    "val_miss_0251": {
+      "answer": "Smith Act",
+      "correct": true
+    },
+    "val_miss_0256": {
+      "answer": "Hull City",
+      "correct": false
+    },
+    "val_miss_0260": {
+      "answer": "Writer",
+      "correct": false
+    },
+    "val_miss_0264": {
+      "answer": "Constitution of the Republic of Texas",
+      "correct": false
+    },
+    "val_miss_0276": {
+      "answer": "Alan Turing",
+      "correct": true
+    },
+    "val_miss_0282": {
+      "answer": "Qualcomm Stadium",
+      "correct": true
+    },
+    "val_miss_0286": {
+      "answer": "1872",
+      "correct": true
+    },
+    "val_miss_0290": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_miss_0295": {
+      "answer": "12th and 15th centuries",
+      "correct": false
+    },
+    "val_miss_0299": {
+      "answer": "Lion",
+      "correct": true
+    },
+    "val_miss_0304": {
+      "answer": "Vietnam War",
+      "correct": true
+    },
+    "val_miss_0308": {
+      "answer": "October 14, 1935",
+      "correct": false
+    },
+    "val_miss_0312": {
+      "answer": "Ambiguous",
+      "correct": false
+    },
+    "val_miss_0317": {
+      "answer": "Tallahassee, Florida",
+      "correct": false
+    },
+    "val_miss_0321": {
+      "answer": "Delphine Software",
+      "correct": true
+    },
+    "val_miss_0325": {
+      "answer": "Lake Zurich",
+      "correct": false
+    },
+    "val_miss_0330": {
+      "answer": "Amyotrophic lateral sclerosis",
+      "correct": false
+    },
+    "val_miss_0336": {
+      "answer": "Approximately 360,000",
+      "correct": false
+    },
+    "val_miss_0341": {
+      "answer": "March and April",
+      "correct": false
+    },
+    "val_miss_0346": {
+      "answer": "Tantallon Castle",
+      "correct": false
+    },
+    "val_miss_0351": {
+      "answer": "San Diego Chargers and San Francisco 49ers",
+      "correct": false
+    },
+    "val_miss_0355": {
+      "answer": "",
+      "correct": false
+    },
+    "val_miss_0359": {
+      "answer": "James Bond",
+      "correct": true
+    },
+    "val_miss_0364": {
+      "answer": "Angus T. Jones",
+      "correct": true
+    },
+    "val_miss_0369": {
+      "answer": "Illinois",
+      "correct": true
+    },
+    "val_miss_0374": {
+      "answer": "Preston County",
+      "correct": true
+    },
+    "val_miss_0379": {
+      "answer": "1,389",
+      "correct": false
+    },
+    "val_miss_0384": {
+      "answer": "Dino Buzzati",
+      "correct": true
+    },
+    "val_miss_0389": {
+      "answer": "Stan Brakhage",
+      "correct": false
+    },
+    "val_miss_0393": {
+      "answer": "Pop rock",
+      "correct": false
+    },
+    "val_miss_0397": {
+      "answer": "Walt Disney Pictures",
+      "correct": true
+    },
+    "val_miss_0402": {
+      "answer": "Human sexual response",
+      "correct": true
+    },
+    "val_miss_0406": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_miss_0410": {
+      "answer": "Mornac",
+      "correct": false
+    },
+    "val_miss_0414": {
+      "answer": "2000",
+      "correct": false
+    },
+    "val_miss_0418": {
+      "answer": "1916",
+      "correct": true
+    },
+    "val_miss_0423": {
+      "answer": "NCAA Division II",
+      "correct": true
+    },
+    "val_miss_0427": {
+      "answer": "62",
+      "correct": false
+    },
+    "val_miss_0431": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_miss_0435": {
+      "answer": "Pensacola",
+      "correct": false
+    },
+    "val_miss_0441": {
+      "answer": "Flying Buffalo",
+      "correct": true
+    },
+    "val_miss_0446": {
+      "answer": "University of Chicago Student Government",
+      "correct": false
+    },
+    "val_miss_0451": {
+      "answer": "1987",
+      "correct": true
+    },
+    "val_miss_0456": {
+      "answer": "Joseph L. Mankiewicz",
+      "correct": true
+    },
+    "val_miss_0460": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_conf_0002": {
+      "answer": "Mornings with Maria",
+      "correct": false
+    },
+    "val_conf_0006": {
+      "answer": "Canada",
+      "correct": false
+    },
+    "val_conf_0010": {
+      "answer": "Hopeless Records",
+      "correct": true
+    },
+    "val_conf_0014": {
+      "answer": "England",
+      "correct": true
+    },
+    "val_conf_0018": {
+      "answer": "40 Acres and a Mule Filmworks",
+      "correct": true
+    },
+    "val_conf_0022": {
+      "answer": "1997",
+      "correct": true
+    },
+    "val_conf_0026": {
+      "answer": "BBC Radio 5 Live",
+      "correct": false
+    },
+    "val_conf_0031": {
+      "answer": "Anna",
+      "correct": false
+    },
+    "val_conf_0035": {
+      "answer": "Battianus",
+      "correct": false
+    },
+    "val_conf_0040": {
+      "answer": "Denmark, Norway, Sweden",
+      "correct": true
+    },
+    "val_conf_0044": {
+      "answer": "The Damned Thing",
+      "correct": false
+    },
+    "val_conf_0050": {
+      "answer": "Asia",
+      "correct": false
+    },
+    "val_conf_0054": {
+      "answer": "5,862",
+      "correct": false
+    },
+    "val_conf_0058": {
+      "answer": "Gus Van Sant",
+      "correct": true
+    },
+    "val_conf_0062": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_conf_0068": {
+      "answer": "The Disney Parks Christmas Day Parade",
+      "correct": false
+    },
+    "val_conf_0072": {
+      "answer": "Leonberger",
+      "correct": true
+    },
+    "val_conf_0079": {
+      "answer": "1381-1384",
+      "correct": false
+    },
+    "val_conf_0083": {
+      "answer": "Anvil",
+      "correct": false
+    },
+    "val_conf_0087": {
+      "answer": "April 24, 1934",
+      "correct": true
+    },
+    "val_conf_0091": {
+      "answer": "November 27, 2009",
+      "correct": false
+    },
+    "val_conf_0095": {
+      "answer": "January 11, 1757",
+      "correct": false
+    },
+    "val_conf_0099": {
+      "answer": "March 9, 1961",
+      "correct": true
+    },
+    "val_conf_0103": {
+      "answer": "Marktown",
+      "correct": true
+    },
+    "val_conf_0107": {
+      "answer": "April 20, 1946",
+      "correct": true
+    },
+    "val_conf_0113": {
+      "answer": "Tina Fey",
+      "correct": false
+    },
+    "val_conf_0118": {
+      "answer": "Tennessee",
+      "correct": true
+    },
+    "val_conf_0123": {
+      "answer": "Arthur Miller",
+      "correct": true
+    },
+    "val_conf_0129": {
+      "answer": "Forest of Rossendale",
+      "correct": false
+    },
+    "val_conf_0133": {
+      "answer": "23",
+      "correct": true
+    },
+    "val_conf_0137": {
+      "answer": "Apalachee",
+      "correct": true
+    },
+    "val_conf_0142": {
+      "answer": "1951-07-13",
+      "correct": false
+    },
+    "val_conf_0146": {
+      "answer": "The Tonight Show",
+      "correct": false
+    },
+    "val_conf_0151": {
+      "answer": "Micky Dolenz",
+      "correct": false
+    },
+    "val_conf_0156": {
+      "answer": "Mawson Lakes",
+      "correct": true
+    },
+    "val_conf_0160": {
+      "answer": "Lucy Dahl",
+      "correct": false
+    },
+    "val_conf_0166": {
+      "answer": "Boxing",
+      "correct": false
+    },
+    "val_conf_0170": {
+      "answer": "Italo Balbo",
+      "correct": false
+    },
+    "val_conf_0174": {
+      "answer": "Singer and songwriter",
+      "correct": true
+    },
+    "val_conf_0178": {
+      "answer": "2024",
+      "correct": false
+    },
+    "val_conf_0183": {
+      "answer": "Canadian",
+      "correct": true
+    },
+    "val_conf_0188": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_conf_0192": {
+      "answer": "North Carolina",
+      "correct": false
+    },
+    "val_conf_0198": {
+      "answer": "Duke of Lancaster",
+      "correct": true
+    },
+    "val_conf_0202": {
+      "answer": "Lord Gort",
+      "correct": true
+    },
+    "val_conf_0206": {
+      "answer": "Woody Allen",
+      "correct": true
+    },
+    "val_conf_0210": {
+      "answer": "Mental illness",
+      "correct": false
+    },
+    "val_conf_0214": {
+      "answer": "Bellshill, Scotland",
+      "correct": false
+    },
+    "val_conf_0219": {
+      "answer": "East Perth",
+      "correct": false
+    },
+    "val_conf_0223": {
+      "answer": "Rome",
+      "correct": false
+    },
+    "val_conf_0227": {
+      "answer": "3rd",
+      "correct": false
+    },
+    "val_conf_0231": {
+      "answer": "No High Seas",
+      "correct": false
+    },
+    "val_conf_0235": {
+      "answer": "I don't know.",
+      "correct": false
+    },
+    "val_conf_0240": {
+      "answer": "John Wetton",
+      "correct": false
+    },
+    "val_conf_0246": {
+      "answer": "0",
+      "correct": false
+    },
+    "val_conf_0252": {
+      "answer": "United States",
+      "correct": false
+    },
+    "val_conf_0257": {
+      "answer": "Bathurst",
+      "correct": true
+    },
+    "val_conf_0261": {
+      "answer": "Film",
+      "correct": true
+    },
+    "val_conf_0265": {
+      "answer": "Lucero",
+      "correct": false
+    },
+    "val_conf_0277": {
+      "answer": "Roman Polanski",
+      "correct": false
+    },
+    "val_conf_0283": {
+      "answer": "Trans fat",
+      "correct": false
+    },
+    "val_conf_0287": {
+      "answer": "Operation Iceberg",
+      "correct": true
+    },
+    "val_conf_0291": {
+      "answer": "1930",
+      "correct": false
+    },
+    "val_conf_0296": {
+      "answer": "Pulitzer Prize",
+      "correct": true
+    },
+    "val_conf_0301": {
+      "answer": "30",
+      "correct": true
+    },
+    "val_conf_0305": {
+      "answer": "Men",
+      "correct": false
+    },
+    "val_conf_0309": {
+      "answer": "6th Duke of Devonshire",
+      "correct": true
+    },
+    "val_conf_0314": {
+      "answer": "9",
+      "correct": false
+    },
+    "val_conf_0318": {
+      "answer": "LA Galaxy",
+      "correct": false
+    },
+    "val_conf_0322": {
+      "answer": "New York City",
+      "correct": false
+    },
+    "val_conf_0327": {
+      "answer": "University of Oxford",
+      "correct": true
+    },
+    "val_conf_0331": {
+      "answer": "Cheshire County",
+      "correct": true
+    },
+    "val_conf_0337": {
+      "answer": "Franz Ferdinand",
+      "correct": true
+    },
+    "val_conf_0342": {
+      "answer": "Burlington, Vermont",
+      "correct": false
+    },
+    "val_conf_0348": {
+      "answer": "Animation",
+      "correct": true
+    },
+    "val_conf_0352": {
+      "answer": "Edson Barboza",
+      "correct": false
+    },
+    "val_conf_0356": {
+      "answer": "Columbus",
+      "correct": true
+    },
+    "val_conf_0361": {
+      "answer": "American",
+      "correct": false
+    },
+    "val_conf_0365": {
+      "answer": "Virginia",
+      "correct": true
+    },
+    "val_conf_0371": {
+      "answer": "Oliver Reed",
+      "correct": true
+    },
+    "val_conf_0375": {
+      "answer": "Brenda Lee",
+      "correct": false
+    },
+    "val_conf_0381": {
+      "answer": "Edwin Starr",
+      "correct": false
+    },
+    "val_conf_0386": {
+      "answer": "Never",
+      "correct": false
+    },
+    "val_conf_0390": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_conf_0394": {
+      "answer": "Hank Azaria",
+      "correct": true
+    },
+    "val_conf_0399": {
+      "answer": "Attorney General",
+      "correct": true
+    },
+    "val_conf_0403": {
+      "answer": "Fiat",
+      "correct": false
+    },
+    "val_conf_0407": {
+      "answer": "Atlanta, Georgia",
+      "correct": false
+    },
+    "val_conf_0411": {
+      "answer": "2011",
+      "correct": true
+    },
+    "val_conf_0415": {
+      "answer": "Mike Hawthorn",
+      "correct": false
+    },
+    "val_conf_0419": {
+      "answer": "Drew Stoudamire",
+      "correct": false
+    },
+    "val_conf_0424": {
+      "answer": "Writing",
+      "correct": false
+    },
+    "val_conf_0428": {
+      "answer": "Mumbai",
+      "correct": false
+    },
+    "val_conf_0432": {
+      "answer": "Deputy Führer",
+      "correct": true
+    },
+    "val_conf_0437": {
+      "answer": "cocktails",
+      "correct": true
+    },
+    "val_conf_0442": {
+      "answer": "Boston Strong",
+      "correct": false
+    },
+    "val_conf_0448": {
+      "answer": "Several",
+      "correct": false
+    },
+    "val_conf_0452": {
+      "answer": "Play therapy",
+      "correct": false
+    },
+    "val_conf_0457": {
+      "answer": "486,043",
+      "correct": false
+    },
+    "val_conf_0461": {
+      "answer": "Shirley MacLaine",
+      "correct": false
+    },
+    "val_unan_0003": {
+      "answer": "Bangkok",
+      "correct": true
+    },
+    "val_unan_0007": {
+      "answer": "Washington, D.C.",
+      "correct": false
+    },
+    "val_unan_0011": {
+      "answer": "Writer",
+      "correct": false
+    },
+    "val_unan_0015": {
+      "answer": "Daytime Emmy Award",
+      "correct": false
+    },
+    "val_unan_0019": {
+      "answer": "National 3",
+      "correct": true
+    },
+    "val_unan_0023": {
+      "answer": "Ice museum",
+      "correct": false
+    },
+    "val_unan_0027": {
+      "answer": "August 16, 1929",
+      "correct": false
+    },
+    "val_unan_0032": {
+      "answer": "2024",
+      "correct": false
+    },
+    "val_unan_0036": {
+      "answer": "Brady Haran",
+      "correct": true
+    },
+    "val_unan_0041": {
+      "answer": "May 9, 1890",
+      "correct": false
+    },
+    "val_unan_0045": {
+      "answer": "Traumnovelle",
+      "correct": true
+    },
+    "val_unan_0051": {
+      "answer": "Colne",
+      "correct": false
+    },
+    "val_unan_0055": {
+      "answer": "1978",
+      "correct": true
+    },
+    "val_unan_0059": {
+      "answer": "Pakistan",
+      "correct": true
+    },
+    "val_unan_0063": {
+      "answer": "Bhimapala",
+      "correct": false
+    },
+    "val_unan_0069": {
+      "answer": "Sleeping Beauty",
+      "correct": true
+    },
+    "val_unan_0073": {
+      "answer": "Merovech",
+      "correct": true
+    },
+    "val_unan_0080": {
+      "answer": "Kind Hearts and Coronets",
+      "correct": true
+    },
+    "val_unan_0084": {
+      "answer": "2004",
+      "correct": false
+    },
+    "val_unan_0088": {
+      "answer": "Srinagar",
+      "correct": false
+    },
+    "val_unan_0092": {
+      "answer": "singer",
+      "correct": false
+    },
+    "val_unan_0096": {
+      "answer": "Terry Malloy",
+      "correct": true
+    },
+    "val_unan_0100": {
+      "answer": "Christian and Missionary Alliance",
+      "correct": false
+    },
+    "val_unan_0104": {
+      "answer": "Nikita Khrushchev",
+      "correct": true
+    },
+    "val_unan_0108": {
+      "answer": "50,000 years ago",
+      "correct": false
+    },
+    "val_unan_0114": {
+      "answer": "Leona Lewis",
+      "correct": true
+    },
+    "val_unan_0119": {
+      "answer": "AFC Asian Cup",
+      "correct": true
+    },
+    "val_unan_0124": {
+      "answer": "Draugr",
+      "correct": false
+    },
+    "val_unan_0130": {
+      "answer": "19 May 1989",
+      "correct": false
+    },
+    "val_unan_0134": {
+      "answer": "Oklahoma Sooners",
+      "correct": true
+    },
+    "val_unan_0138": {
+      "answer": "Baylor Bears",
+      "correct": true
+    },
+    "val_unan_0143": {
+      "answer": "More Please",
+      "correct": false
+    },
+    "val_unan_0147": {
+      "answer": "Kamal Haasan",
+      "correct": true
+    },
+    "val_unan_0152": {
+      "answer": "Documentary",
+      "correct": true
+    },
+    "val_unan_0157": {
+      "answer": "The Terminator",
+      "correct": true
+    },
+    "val_unan_0161": {
+      "answer": "Woolsthorpe",
+      "correct": true
+    },
+    "val_unan_0167": {
+      "answer": "Cleo",
+      "correct": false
+    },
+    "val_unan_0171": {
+      "answer": "6teen",
+      "correct": true
+    },
+    "val_unan_0175": {
+      "answer": "Sportscasters",
+      "correct": false
+    },
+    "val_unan_0179": {
+      "answer": "Syncopation",
+      "correct": false
+    },
+    "val_unan_0184": {
+      "answer": "Juliet",
+      "correct": false
+    },
+    "val_unan_0189": {
+      "answer": "Hans J. Wegner",
+      "correct": true
+    },
+    "val_unan_0193": {
+      "answer": "Walldorf",
+      "correct": true
+    },
+    "val_unan_0199": {
+      "answer": "Doctoral University",
+      "correct": false
+    },
+    "val_unan_0203": {
+      "answer": "Unknown",
+      "correct": false
+    },
+    "val_unan_0207": {
+      "answer": "Ronald Reagan",
+      "correct": false
+    },
+    "val_unan_0211": {
+      "answer": "General",
+      "correct": false
+    },
+    "val_unan_0215": {
+      "answer": "Daryl's BBQ",
+      "correct": false
+    },
+    "val_unan_0220": {
+      "answer": "Denise Richards",
+      "correct": false
+    },
+    "val_unan_0224": {
+      "answer": "2007",
+      "correct": true
+    },
+    "val_unan_0228": {
+      "answer": "Allison",
+      "correct": false
+    },
+    "val_unan_0232": {
+      "answer": "Southwest",
+      "correct": true
+    },
+    "val_unan_0236": {
+      "answer": "Lynyrd Skynyrd",
+      "correct": false
+    },
+    "val_unan_0241": {
+      "answer": "1948",
+      "correct": false
+    },
+    "val_unan_0247": {
+      "answer": "Merv",
+      "correct": false
+    },
+    "val_unan_0253": {
+      "answer": "1961",
+      "correct": false
+    },
+    "val_unan_0258": {
+      "answer": "10.3",
+      "correct": true
+    },
+    "val_unan_0262": {
+      "answer": "Monson",
+      "correct": true
+    },
+    "val_unan_0266": {
+      "answer": "Daniel Patrick Moynihan",
+      "correct": true
+    },
+    "val_unan_0278": {
+      "answer": "Music, politics, and culture",
+      "correct": false
+    },
+    "val_unan_0284": {
+      "answer": "Super Bowl XXIX",
+      "correct": true
+    },
+    "val_unan_0288": {
+      "answer": "1867",
+      "correct": false
+    },
+    "val_unan_0292": {
+      "answer": "Eastern Conference",
+      "correct": false
+    },
+    "val_unan_0297": {
+      "answer": "August 15, 1843",
+      "correct": true
+    },
+    "val_unan_0302": {
+      "answer": "John the Baptist",
+      "correct": false
+    },
+    "val_unan_0306": {
+      "answer": "Ibn Arabi",
+      "correct": false
+    },
+    "val_unan_0310": {
+      "answer": "To establish a strategic buffer",
+      "correct": false
+    },
+    "val_unan_0315": {
+      "answer": "Johannes Vermeer",
+      "correct": true
+    },
+    "val_unan_0319": {
+      "answer": "Electoral coalition",
+      "correct": false
+    },
+    "val_unan_0323": {
+      "answer": "2017",
+      "correct": true
+    },
+    "val_unan_0328": {
+      "answer": "Chicago",
+      "correct": false
+    },
+    "val_unan_0332": {
+      "answer": "Scorchers",
+      "correct": false
+    },
+    "val_unan_0338": {
+      "answer": "Otto Frisch",
+      "correct": true
+    },
+    "val_unan_0343": {
+      "answer": "Spontaneous",
+      "correct": false
+    },
+    "val_unan_0349": {
+      "answer": "Telecommunications",
+      "correct": false
+    },
+    "val_unan_0353": {
+      "answer": "Manhattan Project",
+      "correct": true
+    },
+    "val_unan_0357": {
+      "answer": "Ricky Skaggs",
+      "correct": false
+    },
+    "val_unan_0362": {
+      "answer": "Chinese Coffee",
+      "correct": true
+    },
+    "val_unan_0366": {
+      "answer": "Death metal",
+      "correct": true
+    },
+    "val_unan_0372": {
+      "answer": "Ishaan Khatter",
+      "correct": false
+    },
+    "val_unan_0376": {
+      "answer": "Bell County",
+      "correct": false
+    },
+    "val_unan_0382": {
+      "answer": "Individual liberty and free markets",
+      "correct": false
+    },
+    "val_unan_0387": {
+      "answer": "I don't know",
+      "correct": false
+    },
+    "val_unan_0391": {
+      "answer": "August 21, 2000",
+      "correct": true
+    },
+    "val_unan_0395": {
+      "answer": "Air Chief Marshal Hugh Dowding",
+      "correct": true
+    },
+    "val_unan_0400": {
+      "answer": "Cast",
+      "correct": false
+    },
+    "val_unan_0404": {
+      "answer": "Franz Joseph I",
+      "correct": false
+    },
+    "val_unan_0408": {
+      "answer": "James Lapine",
+      "correct": true
+    },
+    "val_unan_0412": {
+      "answer": "Guarding",
+      "correct": false
+    },
+    "val_unan_0416": {
+      "answer": "Istanbul",
+      "correct": true
+    },
+    "val_unan_0420": {
+      "answer": "Bhakti music",
+      "correct": false
+    },
+    "val_unan_0425": {
+      "answer": "Northumbrian",
+      "correct": true
+    },
+    "val_unan_0429": {
+      "answer": "Sandy Springs, Georgia",
+      "correct": true
+    },
+    "val_unan_0433": {
+      "answer": "Helen Hunt",
+      "correct": true
+    },
+    "val_unan_0439": {
+      "answer": "Futurama",
+      "correct": false
+    },
+    "val_unan_0443": {
+      "answer": "Oryzomyini",
+      "correct": true
+    },
+    "val_unan_0449": {
+      "answer": "Documentary",
+      "correct": true
+    },
+    "val_unan_0454": {
+      "answer": "Venstre",
+      "correct": true
+    },
+    "val_unan_0458": {
+      "answer": "Limbo",
+      "correct": true
+    },
+    "val_unan_0462": {
+      "answer": "David Jolly",
+      "correct": true
+    }
+  }
+}

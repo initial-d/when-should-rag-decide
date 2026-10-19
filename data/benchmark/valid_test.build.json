@@ -1,0 +1,13 @@
+{
+  "seed": 2027,
+  "per_state": 100,
+  "conflict_model": "deepseek/deepseek-v4.1-flash",
+  "rejections": {
+    "conflicting:construction": 21,
+    "missing:construction": 38,
+    "missing:missing_answer_already_in_initial": 2,
+    "unanswerable:unanswerable_answer_present_in_pool": 1,
+    "unanswerable:construction": 1
+  },
+  "n_candidates": 5635
+}
